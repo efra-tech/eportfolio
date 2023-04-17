@@ -1,0 +1,36 @@
+/* Full page */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.nav {
+  background-color: #746B5D;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: -0.28px;
+  color: #F2F2EC;
+  border-bottom: 4px solid #655C4E;
+  text-shadow: 1px 2px 4px #594F3E;
+  border-top: 3px solid #847A6B;
+  border-radius: none;
+}
+
+.nav:hover {
+  color: #99AB45;
+  font-weight: 500;
+}
+
+a {
+  color: #F2F2EC;
+}
