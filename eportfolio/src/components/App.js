@@ -18,10 +18,10 @@ export default function App(props) {
 
       <main>
         <Routes>
-          <Route path='/' element={ <HomePage /> } />
+          <Route path='/~' element={ <HomePage /> } />
           <Route path='resume' element={ <Resume /> } />
           <Route path='portfolio' element={ <Portfolio /> } />
-          <Route path='*' element={ <Navigate to='/' /> } />
+          <Route path='*' element={ <Navigate to='/~' /> } />
         </Routes>
       </main>
 
