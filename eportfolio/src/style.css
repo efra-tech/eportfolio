@@ -7,8 +7,8 @@
 html > * {
   height: 100%;
   width: 80vw;
-  background-color: #5c0a0a;
-  color: rgb(71, 73, 72);
+  background-color: #0c021a;
+  color: #4c76bd;
   margin-left: 20%;
 }
 
@@ -20,7 +20,9 @@ html > * {
   left: 0;
   width: 5%;
   padding: 0;
-  background-color: #2e0505;
+  background-image: url(imgs/pink-purple.png);
+  background-color: transparent;
+  background-position: fixed;
   font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-size: 3rem;
