@@ -2,7 +2,7 @@ import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 
 import Navbar from './Navbar';
-import HomePage from './HomePage';
+import Bio from './Bio';
 import Resume from './Resume';
 import Portfolio from './Portfolio';
 
@@ -18,10 +18,10 @@ export default function App(props) {
 
       <main>
         <Routes>
-          <Route path='/~' element={ <HomePage /> } />
+          <Route path='/' element={ <Bio /> } />
           <Route path='resume' element={ <Resume /> } />
           <Route path='portfolio' element={ <Portfolio /> } />
-          <Route path='*' element={ <Navigate to='/~' /> } />
+          <Route path='*' element={ <Navigate to='/' /> } />
         </Routes>
       </main>
 

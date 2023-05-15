@@ -1,10 +1,8 @@
 import { React, useState } from 'react';
 import { NavLink, Link } from 'react-router-dom';
-import { faHandSpock } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLayerGroup, faIdCard, faCameraRetro, faFingerprint } from '@fortawesome/free-solid-svg-icons';
+import { faLayerGroup, faCameraRetro, faFingerprint, faPenRuler, faHippo, faHandScissors, faHandSpock } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithubSquare } from '@fortawesome/free-brands-svg-icons';
-import { act } from 'react-dom/test-utils';
 
 
 export default function Navbar(props) {
@@ -12,8 +10,10 @@ export default function Navbar(props) {
   const activeColor = 'pink';
   const deactiveColor = '#4c76bd';
 
-  let navWidth = '9%';
+  let ani = "none";
+  let navWidth = '7.3%';
   let brandProp = deactiveColor;
+  let smallIconShow = 'hide'
 
   const [brandShow, setBrandShow] = useState(false);
   function changeBrandOn(evt){
@@ -24,10 +24,12 @@ export default function Navbar(props) {
   }
   if(brandShow === true) {
     brandProp = activeColor;
-    navWidth = '17%';
+    navWidth = '19%';
+    ani = "shake 0.9s"
+    smallIconShow = 'show';
   } else {
     brandProp = deactiveColor;
-    navWidth = '9%';
+    navWidth = '7.3%';
   }
 
   let li1color = deactiveColor;
@@ -73,7 +75,7 @@ export default function Navbar(props) {
   }
 
   function hoverHighlightOnSmall(evt){
-    evt.target.style.color = activeColor;
+    evt.target.style.color = "purple";
   }
   function hoverHighlightOffSmall(evt){
     evt.target.style.color = deactiveColor;
@@ -81,50 +83,55 @@ export default function Navbar(props) {
 
 
   return (
-    <nav onMouseOver={changeBrandOn} onMouseOut={changeBrandOff}>
-      <ul className='navbar navbar-nav p-5 row' style={{width: navWidth}}>
+    <nav onMouseOver={changeBrandOn} onMouseOut={changeBrandOff} className='main'>
+      <ul className='navbar navbar-nav row' style={{width: navWidth}}>
+
         <li className='d-flex'>
-          <div className='nav-icon brand'><FontAwesomeIcon icon={faHandSpock} style={{color: brandProp, height: "5rem"}}/></div>
-          <div className='nav-name brand' style={{color: brandProp}}>efra ahsan</div>
+          <div className='nav-icon'><FontAwesomeIcon icon={ faHandScissors } style={{color: brandProp, height: "5rem", animation: ani, position: 'absolute'}}/></div>
+          <div className='nav-name' style={{color: brandProp, position: 'absolute', paddingLeft: '14%', paddingBottom: '2%', fontFamily: 'short stack, sans-serif'}}><p>efra</p>ahsan</div>
         </li>
 
+        <div style={{height:'35vh'}}></div>
+
         <li className='nav-item' onMouseOver={hoverHighlightOn} onMouseOut={hoverHighlightOff}>
-          <NavLink activeClassName='is-active' to="/" className='d-flex'>
-            <div className='nav-icon'><FontAwesomeIcon icon={faFingerprint} style={{color: li1color, height: "5rem"}}/></div>
-            <div className='nav-name' style={{color: li1color}}>bio</div>
+          <NavLink to="/" className='d-flex'>
+            <div className='nav-icon'><FontAwesomeIcon icon={faFingerprint} style={{color: li1color, height: "4rem"}}/></div>
+            <div className='nav-name' style={{color: li1color, paddingTop: "3%", position: 'absolute', paddingLeft: '12%'}}>bio</div>
           </NavLink>
         </li>
 
         <li className='nav-item' onMouseOver={hoverHighlightOn2} onMouseOut={hoverHighlightOff2}>
-          <NavLink to="/resume" className='d-flex' activeClassName='is-active'>
-            <div className='nav-icon'><FontAwesomeIcon icon={faIdCard} style={{color: li2color, height: "4.5rem"}}/></div>
-            <div className='nav-name' style={{color: li2color}}>resume</div>
+          <NavLink to="/resume" className='d-flex'>
+            <div className='nav-icon'><FontAwesomeIcon icon={faPenRuler} style={{color: li2color, height: "3.5rem"}}/></div>
+            <div className='nav-name' style={{color: li2color, paddingTop: "3%", position: 'absolute', paddingLeft: '12%'}}>{'  resume'}</div>
           </NavLink>
         </li>
 
         <li className='nav-item' onMouseOver={hoverHighlightOn3} onMouseOut={hoverHighlightOff3}>
-          <NavLink to="/portfolio" className='d-flex' activeClassName='is-active'>
-            <div className='nav-icon'><FontAwesomeIcon icon={faLayerGroup} style={{color: li3color, height: "5rem"}}/></div>
-            <div className='nav-name' style={{color: li3color}}>portfolio</div>
+          <NavLink to="/portfolio" className='d-flex'>
+            <div className='nav-icon'><FontAwesomeIcon icon={faLayerGroup} style={{color: li3color, height: "4rem"}}/></div>
+            <div className='nav-name' style={{color: li3color, paddingTop: "3%", position: 'absolute', paddingLeft: '12%'}}>portfolio</div>
           </NavLink>
         </li>
 
-        <li className='nav-item' onMouseOver={hoverHighlightOnSmall} onMouseOut={hoverHighlightOffSmall}>
-          <Link rel="noreferrer" target="_blank" to="https://www.linkedin.com/in/efra-ahsan-4b49a0228/" className='d-flex' activeClassName='is-active'>
-            <div className='nav-icon'><FontAwesomeIcon icon={faLinkedin} style={{color: "#4c76bd", height: "4.1rem"}}/></div>
-          </Link>
-        </li>
+        <li className='d-flex m-5' style={{position: 'absolute', bottom: '0', left: '0'}}>
+          <li className={'nav-item p-3 ' + smallIconShow} onMouseOver={hoverHighlightOnSmall} onMouseOut={hoverHighlightOffSmall}>
+            <Link rel="noreferrer" target="_blank" to="https://www.linkedin.com/in/efra-ahsan-4b49a0228/" className='d-flex'>
+              <div className='nav-icon'><FontAwesomeIcon icon={faLinkedin} style={{color: "#4c76bd", height: "4.1rem"}}/></div>
+            </Link>
+          </li>
 
-        <li className='nav-item' onMouseOver={hoverHighlightOnSmall} onMouseOut={hoverHighlightOffSmall}>
-          <Link rel="noreferrer" target="_blank" to="https://github.com/efra-tech" className='d-flex' activeClassName='is-active'>
-            <div className='nav-icon'><FontAwesomeIcon icon={faGithubSquare} style={{color: "#4c76bd", height: "4.1rem"}}/></div>
-          </Link>
-        </li>
+          <li className={'nav-item p-3 ' + smallIconShow} onMouseOver={hoverHighlightOnSmall} onMouseOut={hoverHighlightOffSmall}>
+            <Link rel="noreferrer" target="_blank" to="https://github.com/efra-tech" className='d-flex'>
+              <div className='nav-icon'><FontAwesomeIcon icon={faGithubSquare} style={{color: "#4c76bd", height: "4.1rem"}}/></div>
+            </Link>
+          </li>
 
-        <li className='nav-item' onMouseOver={hoverHighlightOnSmall} onMouseOut={hoverHighlightOffSmall}>
-          <Link rel="noreferrer" target="_blank" to="https://vsco.co/dubroxo/gallery" className='d-flex' activeClassName='is-active'>
-            <div className='nav-icon'><FontAwesomeIcon icon={faCameraRetro} style={{color: "#4c76bd", height: "3.7rem"}}/></div>
-          </Link>
+          <li className={'nav-item p-3 ' + smallIconShow} onMouseOver={hoverHighlightOnSmall} onMouseOut={hoverHighlightOffSmall}>
+            <Link rel="noreferrer" target="_blank" to="https://vsco.co/dubroxo/gallery" className='d-flex'>
+              <div className='nav-icon'><FontAwesomeIcon icon={faCameraRetro} style={{color: "#4c76bd", height: "3.9rem"}}/></div>
+            </Link>
+          </li>
         </li>
       </ul>
     </nav>
