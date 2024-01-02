@@ -88,7 +88,7 @@ export default function Navbar(props) {
 
         <li className='d-flex'>
           <div className='nav-icon'><FontAwesomeIcon icon={ faHandScissors } style={{color: brandProp, height: "5rem", animation: ani, position: 'absolute'}}/></div>
-          <div className='nav-name' style={{color: brandProp, position: 'absolute', paddingLeft: '14%', paddingBottom: '2%', fontFamily: 'short stack, sans-serif'}}><p>efra</p>ahsan</div>
+          <div className='nav-name' style={{color: brandProp, position: 'absolute', paddingLeft: '14%', paddingBottom: '2%', fontFamily: 'short stack, sans-serif', fontSize: '3.9rem'}}><p>efra</p>ahsan</div>
         </li>
 
         <div style={{height:'35vh'}}></div>
@@ -102,7 +102,7 @@ export default function Navbar(props) {
 
         <li className='nav-item' onMouseOver={hoverHighlightOn2} onMouseOut={hoverHighlightOff2}>
           <NavLink to="/resume" className='d-flex'>
-            <div className='nav-icon'><FontAwesomeIcon icon={faPenRuler} style={{color: li2color, height: "3.5rem"}}/></div>
+            <div className='nav-icon'><FontAwesomeIcon icon={faPenRuler} style={{color: li2color, height: "3.5rem", paddingLeft: '8.2%'}}/></div>
             <div className='nav-name' style={{color: li2color, paddingTop: "3%", position: 'absolute', paddingLeft: '12%'}}>{'  resume'}</div>
           </NavLink>
         </li>

@@ -10,7 +10,7 @@ html > * {
   /* background-image: url(imgs/blue.jpeg); */
   background-position: bottom;
   background-color: #180226;
-  color: #8596b4;
+  color: #899ab7;
   margin-left: 20%;
 }
 
@@ -33,6 +33,7 @@ html > * {
   border-radius: none;
   text-decoration: none;
   border-right: 1px solid #0f0323;
+  border-top: 26px solid black;
 }
 
 .nav-name {
@@ -43,6 +44,7 @@ html > * {
 .navbar:hover .nav-name {
   display: inline;
 }
+
 
 @keyframes shake {
   0% { transform: rotate( 0.0deg) }
@@ -56,11 +58,12 @@ html > * {
 }
 
 .bio-back, .resume-back {
-  background-color: rgba(0, 0, 0, 0.506);
+  background-color: rgba(0, 0, 0, 0.404);
   border: 60px solid rgba(0, 0, 0, 0.187);
   width: 80%;
   padding-left: 0;
   text-align: center;
+  border-radius: 2em;
 }
 
 .resume-back {
@@ -84,4 +87,12 @@ html > * {
 
 .hide {
   display: none;
+}
+
+.a {
+  z-index: -1;
+}
+
+.b:hover {
+  background-color: rgb(112, 79, 85) !important;
 }
