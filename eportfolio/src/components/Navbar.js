@@ -1,7 +1,7 @@
 import { React, useState } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLayerGroup, faCameraRetro, faFingerprint, faPenRuler, faHippo, faHandScissors, faHandSpock } from '@fortawesome/free-solid-svg-icons';
+import { faLayerGroup, faCameraRetro, faFingerprint, faPenRuler, faHippo, faHandScissors, faHandSpock, faWindowMaximize } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithubSquare } from '@fortawesome/free-brands-svg-icons';
 
 
@@ -128,8 +128,8 @@ export default function Navbar(props) {
           </li>
 
           <li className={'nav-item p-3 ' + smallIconShow} onMouseOver={hoverHighlightOnSmall} onMouseOut={hoverHighlightOffSmall}>
-            <Link rel="noreferrer" target="_blank" to="https://vsco.co/dubroxo/gallery" className='d-flex'>
-              <div className='nav-icon'><FontAwesomeIcon icon={faCameraRetro} style={{color: "#4c76bd", height: "3.9rem"}}/></div>
+            <Link rel="noreferrer" target="_blank" to="https://www.fiverr.com/efra3ahsan?public_mode=true" className='d-flex'>
+              <div className='nav-icon'><FontAwesomeIcon icon={faWindowMaximize} style={{color: "#4c76bd", height: "3.9rem"}}/></div>
             </Link>
           </li>
         </li>
