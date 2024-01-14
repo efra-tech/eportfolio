@@ -19,9 +19,9 @@ export default function Bio(props) {
           </h5>
           <div className='biobox pt-3' style={{textAlign: 'left'}}>
             <p>In a rush? Go on straight to my <a className='bio-p1-a' style={{color: 'white', fontWeight: '900'}} href='/portfolio'>portflio</a>.</p>
-            <p>To introduce myself, I am a 21-year-old IT graduate from University of Washington's iSchool. I pursued many curiosities throughout my academic career, having started as a pre-medical student, to succeeding in data science courses, to then finding drive and commitment in web development.</p>
+            <p>To introduce myself, I am a 21-year-old IT graduate from University of Washington's iSchool. I pursued many curiosities throughout my academic career, having started as a pre-medical student, to being intrigued in data science courses, to then finding drive and commitment in web development.</p>
             <p>I truthfully nearly failed my first web programming course in 2022, which came to me as a surprise given I loved coding. This sparked my strive for building mastry in my most challenging subject as an IT student: web development.</p>
-            <p>As of today, I excel in designing and implementing React apps, and I look forward to continue developing in this field. Just within 2023, I achieved an academic award for an open-source web application project, and subsequenly also, began working as a freelance web developer and designer.</p>
+            <p>As of today, I excel in designing and implementing React apps, and I look forward to continue developing in this field. Just within 2023, I achieved a University of Washington academic award for an open-source web application project, and subsequently also, began working as a freelance web developer and designer.</p>
             {/* <p>I am super excited to begin working collaboratively with other developers and experts, on projects bigger than I've likely yet seen, and building a professional career out of something I love.</p> */}
             <p>With that, welcome to my website, and if you would like to connect over any opportunities or shared interests, I would be so happy to meet you!</p>
           </div>
