@@ -64,7 +64,7 @@ export default function Portfolio(props) {
               /></a>
             </div>
             <Carousel.Caption>
-              <h5><em>YouFeed</em> App Mockups and Webpage</h5>
+              <h5><em>YouFeed</em> Website and Mobile Design</h5>
               <p className='pb-4 p'>Published in 2023</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
@@ -78,7 +78,7 @@ export default function Portfolio(props) {
               /></a>
             </div>
             <Carousel.Caption>
-              <h5>Landing Page for <em>atlas.</em></h5>
+              <h5><em>atlas.</em> Website</h5>
               <p className='pb-4 p'>Published in 2023</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
@@ -92,7 +92,7 @@ export default function Portfolio(props) {
               /></a>
             </div>
             <Carousel.Caption>
-              <h5><em>OurFamily</em> Course Project&nbsp;&nbsp;&nbsp;
+              <h5><em>OurFamily</em> Website Course Project&nbsp;&nbsp;&nbsp;
               <a rel="noreferrer" target="_blank" href="https://github.com/info340b-wi23/project-efra-tech"><FontAwesomeIcon icon={faGithubSquare} style={{color: "white", height: "21.8px"}}/></a>
               </h5>
               <p className='pb-4 p'>Published in 2023</p>
@@ -108,7 +108,7 @@ export default function Portfolio(props) {
               /></a>
             </div>
             <Carousel.Caption>
-              <h5>Graphic Design for <em>MexiKhaana</em> Food Cart</h5>
+              <h5><em>MexiKhaana</em> Food Cart Graphic Design</h5>
               <p className='pb-4 p'>Service in 2023</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
@@ -122,7 +122,7 @@ export default function Portfolio(props) {
               /></a>
             </div>
             <Carousel.Caption>
-              <h5 style={{marginBottom: '0px'}}>UX/UI Design for <em>Veeve Inc.</em></h5>
+              <h5 style={{marginBottom: '0px'}}>Interface Design for <em>Veeve Inc.</em></h5>
               <p style={{marginBottom: '0px'}} className='pb-4 p'>Service in 2023</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
@@ -150,7 +150,7 @@ export default function Portfolio(props) {
               /></a>
             </div>
             <Carousel.Caption>
-              <h5>Interactive Data Analysis of <em>Electric Vehicles in WA</em>&nbsp;&nbsp;&nbsp;
+              <h5><em>Electric Vehicles in WA</em> Interactive Data Analysis&nbsp;&nbsp;&nbsp;
               <a rel="noreferrer" target="_blank" href="https://github.com/info-201a-sp22/final-project-safjam?tab=readme-ov-file"><FontAwesomeIcon icon={faGithubSquare} style={{color: "white", height: "21.8px"}}/></a></h5>
               <p className='pb-4 p'>Published in 2022</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>

@@ -170,3 +170,7 @@ h5 a:hover {
 .bio-p1-a:hover {
   opacity: 0.75;
 }
+
+.pubHyperLink:hover {
+  opacity: 0.55;
+}
