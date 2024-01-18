@@ -57,7 +57,6 @@ export default function Resume(props) {
 
       {boxMain}
 
-      <div style={{backgroundColor: 'lightgray', marginTop: '39.9%', height: '0.01rem', marginLeft: '9.5%', boxShadow: '0px 1px 1px white'}}></div>
     </div>
   );
 }
