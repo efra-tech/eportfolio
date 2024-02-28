@@ -7,11 +7,11 @@ import Efra from '../imgs/efra2.jpg';
 export default function Bio(props) {
   return (
     <div className='a' style={{position: 'absolute', width:'100vw', left: '0'}}>
-      <div style={{backgroundColor: 'pink', marginTop: '2.9%', height: '0.3rem', marginLeft: '21.5%', boxShadow: '0px 1px 2px white'}}></div>
-      <div style={{backgroundColor: 'lightgray', marginTop: '1%', height: '0.2rem', marginLeft: '10%', boxShadow: '0px 1px 2px lightgray'}}></div>
+      <div style={{backgroundColor: 'pink', marginTop: '2.9%', height: '0.3rem', marginLeft: '21.5%', boxShadow: '0px 1px 6px white'}}></div>
+      <div style={{backgroundColor: 'lightgray', marginTop: '1%', height: '0.2rem', marginLeft: '10%', boxShadow: '0px 1px 6px lightgray'}}></div>
 
-      <div className='resume-backback p-2' style={{color:'white', marginTop: '-1.9%', height: '87.9%', width: '38%', borderBottom: '7px solid rgb(150, 135, 138)', borderTop: 'none', borderRight: '7px solid rgb(150, 135, 138)', backgroundColor: '#11041e', marginRight: '21.0%', opacity: '1.5'}}>
-        <img src={Efra} alt='my self portrait' style={{width: '23%', marginTop: '2.4%'}} />
+      <div className='resume-backback p-2' style={{color:'white', marginTop: '-1.9%', height: '87.9%', width: '38%', borderBottom: '7px solid rgb(150, 135, 138)', borderTop: 'none', borderRight: '7px solid rgb(150, 135, 138)', backgroundColor: '#11041e', marginRight: '19.0%', opacity: '1.5'}}>
+        <img src={Efra} alt='my self portrait' style={{width: '21%', marginTop: '2.4%'}} />
         <h2>Hey, I'm Efra Ahsan.</h2>
         <div className='mx-4'>
           <h5>
@@ -31,22 +31,23 @@ export default function Bio(props) {
       </div>
 
 
-      <div style={{backgroundColor: 'pink', marginTop: '13%', height: '0.3rem', marginLeft: '21.5%', boxShadow: '0px 1px 2px white'}}></div>
-      <div style={{backgroundColor: 'lightgray', marginTop: '1%', height: '0.2rem', marginLeft: '10%', boxShadow: '0px 1px 2px lightgray'}}></div>
-      <div style={{backgroundColor: 'lightgray', marginTop: '1%', height: '0.2rem', marginLeft: '10%', boxShadow: '0px 1px 2px lightgray'}}></div>
-      <div style={{backgroundColor: 'pink', marginTop: '2.9%', height: '0.3rem', marginLeft: '21.5%', boxShadow: '0px 1px 2px white'}}></div>
-      <div style={{backgroundColor: 'lightgray', marginTop: '1%', height: '0.2rem', marginLeft: '10%', boxShadow: '0px 1px 2px lightgray'}}></div>
-      <div style={{backgroundColor: 'lightgray', marginTop: '1%', height: '0.2rem', marginLeft: '10%', boxShadow: '0px 1px 2px lightgray'}}></div>
-      <div style={{backgroundColor: 'pink', marginTop: '2.9%', height: '0.3rem', marginLeft: '21.5%', boxShadow: '0px 1px 2px white'}}></div>
+      <div style={{backgroundColor: 'pink', marginTop: '13%', height: '0.3rem', marginLeft: '21.5%', boxShadow: '0px 1px 6px white'}}></div>
+      <div style={{backgroundColor: 'lightgray', marginTop: '1%', height: '0.2rem', marginLeft: '10%', boxShadow: '0px 1px 6px lightgray'}}></div>
+      <div style={{backgroundColor: 'lightgray', marginTop: '1%', height: '0.2rem', marginLeft: '10%', boxShadow: '0px 1px 6px lightgray'}}></div>
+      <div style={{backgroundColor: 'pink', marginTop: '2.9%', height: '0.3rem', marginLeft: '21.5%', boxShadow: '0px 1px 6px white'}}></div>
+      <div style={{backgroundColor: 'lightgray', marginTop: '1%', height: '0.2rem', marginLeft: '10%', boxShadow: '0px 1px 6px lightgray'}}></div>
+      <div style={{backgroundColor: 'lightgray', marginTop: '1%', height: '0.2rem', marginLeft: '10%', boxShadow: '0px 1px 6px lightgray'}}></div>
+      <div style={{backgroundColor: 'pink', marginTop: '2.9%', height: '0.3rem', marginLeft: '21.5%', boxShadow: '0px 1px 6px white'}}></div>
+      <div style={{backgroundColor: 'pink', marginTop: '0.9%', height: '0.3rem', marginLeft: '21.5%', boxShadow: '0px 1px 6px white'}}></div>
 
-      <div style={{backgroundColor: 'lightgray', marginTop: '13%', height: '0.2rem', marginLeft: '10%', boxShadow: '0px 1px 2px lightgray'}}></div>
-      <div style={{backgroundColor: 'pink', marginTop: '2.9%', height: '0.3rem', marginLeft: '21.5%', boxShadow: '0px 1px 2px white'}}></div>
-      <div style={{backgroundColor: 'lightgray', marginTop: '1%', height: '0.2rem', marginLeft: '10%', boxShadow: '0px 1px 2px lightgray'}}></div>
-      <div style={{backgroundColor: 'lightgray', marginTop: '1%', height: '0.2rem', marginLeft: '10%', marginBottom: '6%', boxShadow: '0px 1px 2px lightgray'}}></div>
+      <div style={{backgroundColor: 'lightgray', marginTop: '13%', height: '0.2rem', marginLeft: '10%', boxShadow: '0px 1px 6px lightgray'}}></div>
+      <div style={{backgroundColor: 'pink', marginTop: '2.9%', height: '0.3rem', marginLeft: '21.5%', boxShadow: '0px 1px 6px white'}}></div>
+      <div style={{backgroundColor: 'lightgray', marginTop: '1%', height: '0.2rem', marginLeft: '10%', boxShadow: '0px 1px 6px lightgray'}}></div>
+      <div style={{backgroundColor: 'lightgray', marginTop: '1%', height: '0.2rem', marginLeft: '10%', marginBottom: '4.8%', boxShadow: '0px 1px 6px lightgray'}}></div>
 
-      <footer style={{marginBottom: '-1%', backgroundColor: 'black', paddingTop: '4px', paddingBottom: '4px'}}>
-          <div className='d-flex justify-content-center pt-4'>
-            <p className='mx-5' style={{paddingLeft: '15.7%', color: 'pink', fontWeight: '800'}}>Let's connect!</p>
+      <footer style={{marginBottom: '-1%', backgroundColor: 'black', opacity: '0.76', paddingTop: '4px', paddingBottom: '4px', borderRight: '17.72px solid rgb(7, 7, 7)'}}>
+          <div className='d-flex justify-content-center pt-4 footerPar'>
+            <p className='mx-5 pr-5' style={{paddingLeft: '15.7%', color: 'pink', fontWeight: '800', textShadow: '0px 0.2px 0.6px pink'}}>Let's connect!</p>
             <a className='mx-5' rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/efra-ahsan-4b49a0228/"><FontAwesomeIcon icon={faLinkedin} style={{color: '#4c76bd', height: "21.8px"}}/></a>
             <a href="mailto:efra.ahsan23@gmail.com?body=Efra says, hello. You may delete this message now."><p className='mx-5' style={{color: '#4c76bd'}}>efra.ahsan23@gmail.com</p></a>
             <a href="tel:+13609499164"><p className='mx-5' style={{color: '#4c76bd'}}>+1 (360) 949-9164</p></a>
@@ -56,3 +57,4 @@ export default function Bio(props) {
     </div>
   );
 }
+

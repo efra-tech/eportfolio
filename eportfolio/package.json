@@ -22,6 +22,7 @@
     "react-pdf-viewer": "^0.1.0",
     "react-router-dom": "^6.10.0",
     "react-scripts": "5.0.1",
+    "react-svg": "^16.1.33",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
