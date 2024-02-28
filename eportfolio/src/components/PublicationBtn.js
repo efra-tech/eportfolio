@@ -14,7 +14,7 @@ export default function PublicationBtn(props){
         <h1>Publications</h1>
       </div>
 
-      <div className='resume-back rc pb-2 pt-5' style={{overflowY: 'scroll'}}>
+      <div className='resume-back rc pb-2 pt-5' style={{overflowY: 'scroll', backgroundColor: 'rgba(14, 5, 5, 0.883)'}}>
         <a href='https://greymattersjournal.org/hacking-consciousness-mindfulness-meditation-ego-death-and-enlightenment-engineering/' rel="noreferrer" target='_blank'><div className='card'>
           <div className='d-flex'>
             <img className="card-img-top" src={img} style={{width: '30rem'}} alt="Illustration from article: Free From Ego" />

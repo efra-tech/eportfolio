@@ -24,7 +24,7 @@ export default function Navbar(props) {
   }
   if(brandShow === true) {
     brandProp = activeColor;
-    navWidth = '19%';
+    navWidth = '20.9%';
     ani = "shake 0.9s"
     smallIconShow = 'show';
   } else {
@@ -75,7 +75,7 @@ export default function Navbar(props) {
   }
 
   function hoverHighlightOnSmall(evt){
-    evt.target.style.color = "purple";
+    evt.target.style.color = "#d7d7d7";
   }
   function hoverHighlightOffSmall(evt){
     evt.target.style.color = deactiveColor;
@@ -87,8 +87,10 @@ export default function Navbar(props) {
       <ul className='navbar navbar-nav row' style={{width: navWidth}}>
 
         <li className='d-flex'>
-          <div className='nav-icon'><FontAwesomeIcon icon={ faHandScissors } style={{color: brandProp, height: "5rem", animation: ani, position: 'absolute'}}/></div>
-          <div className='nav-name' style={{color: brandProp, position: 'absolute', paddingLeft: '14%', paddingBottom: '2%', fontFamily: 'short stack, sans-serif', fontSize: '3.9rem'}}><p>efra</p>ahsan</div>
+          <NavLink to="/" className='d-flex'>
+            <div className='nav-icon'><FontAwesomeIcon icon={ faHandScissors } style={{color: brandProp, height: "5rem", animation: ani, position: 'absolute'}}/></div>
+            <div className='nav-name' style={{color: brandProp, position: 'absolute', paddingLeft: '14%', paddingBottom: '2%', fontFamily: 'short stack, sans-serif', fontSize: '3.9rem'}}><p>efra</p>ahsan</div>
+          </NavLink>
         </li>
 
         <div style={{height:'35vh'}}></div>

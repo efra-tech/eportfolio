@@ -13,7 +13,7 @@ export default function SummaryDiv(props) {
         <div className='pb-2'>
           <ul className='py-4'>
             <li>Website developer, creative, and goal-driven.</li>
-            <li>Two years of project-based experience in React development, data programming, and design.</li>
+            <li>Two years of project experience in React development, data programming, and design.</li>
             <li>Achieved a successful open-source app project, recipient of annual Capstone Research Award from University of Washington Information School 2023.</li>
           </ul>
         </div>
@@ -36,7 +36,7 @@ export default function SummaryDiv(props) {
         <h1 style={{color:'white', textShadow: '1px 1px 1px black', fontWeight: '900', fontSize: '2rem', fontStyle: 'italic'}}>Professional Experience</h1>
         <div>
           <p className='pt-4'><em style={{fontWeight: '900', textShadow: '1px 1px 1px black', fontSize: '1.62rem', fontStyle: 'normal'}}>Freelance Web Developer & Digital Designer&nbsp;&nbsp;</em>| &nbsp;May 2023 - Nov 2023</p>
-            <p style={{fontSize: '1.45rem'}}>Drafted website and mobile projects for start-ups and companies based within Washington state. I individually fulfilled roles covering webpage development, UX/UI design, and printed graphic design.</p>
+            <p style={{fontSize: '1.45rem'}}>Constructed website and mobile projects for start-ups and companies based within Washington state. I individually fulfilled roles covering webpage development, UX/UI design, and printed graphic design.</p>
 
           <p className='pt-4'><em style={{fontWeight: '900', textShadow: '1px 1px 1px black', fontSize: '1.62rem', fontStyle: 'normal'}}>Marketing Contractor Intern&nbsp;&nbsp;</em>| &nbsp;April 2022 - June 2022</p>
           <p style={{fontSize: '1.45rem'}}>Connected a stealth wearable technology start-up with potential buyers in King County to build
@@ -52,7 +52,7 @@ export default function SummaryDiv(props) {
           <div>
             <p style={{textShadow: '5px 2px 6px purple', color:'white', fontWeight: '900', fontSize: '1.55rem'}}>University of Washington</p>
             <p style={{fontWeight: '900', textShadow: '1px 1px 1px black'}}>Bachelor of Science, <i style={{fontWeight: '500', fontStyle: 'normal'}}>Informatics</i></p>
-            <p style={{marginTop: '-1.2%', fontSize: '1.35rem'}}>Successful completion of courses in building information technology, designing information experiences, and studying the use and impact of IT.</p>
+            <p style={{marginTop: '-1.2%', fontSize: '1.35rem'}}>Successful completion of courses in building information technology, designing information experiences, and questioning the use and impact of IT.</p>
             <p className='py-0 my-0' style={{fontSize: '1.3rem'}}>- iSchool Capstone Research Award 2023, Annual Dean’s List 2022 - 2023</p>
           </div>
           <div style={{position: 'absolute', right: '19%', textAlign: 'right'}}>
@@ -64,7 +64,7 @@ export default function SummaryDiv(props) {
           <div>
             <p style={{textShadow: '5px 2px 7px darkblue', color:'white', fontWeight: '900', fontSize: '1.55rem'}}>Clark College</p>
             <p style={{fontWeight: '900', textShadow: '1px 1px 1px black'}}>High School Dual Enrollment - Pre-Sciences</p>
-            <p style={{marginTop: '-1.2%', fontSize: '1.35rem'}}>Successful completion of credits for General Education and in Pre-Medicine.</p>
+            <p style={{marginTop: '-1.2%', fontSize: '1.35rem'}}>Successful completion of credits for General Education and Pre-Medicine.</p>
             <p className='py-0 my-0' style={{fontSize: '1.3rem'}}>- Vice President's List Fall 2019 & Spring 2020</p>
           </div>
           <div style={{position: 'absolute', right: '19%', textAlign: 'right'}}>
