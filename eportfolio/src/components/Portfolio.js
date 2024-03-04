@@ -137,7 +137,7 @@ export default function Portfolio(props) {
               /></a>
             </div>
             <Carousel.Caption>
-              <h5 style={{marginBottom: '0px'}}>UX Interface Design <em>Veeve Inc.</em></h5>
+              <h5 style={{marginBottom: '0px'}}>UX Interface Design for <em>Veeve Inc.</em></h5>
               <p style={{marginBottom: '0px'}} className='pb-4 p'>Service in 2023</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
@@ -151,7 +151,7 @@ export default function Portfolio(props) {
               /></a>
             </div>
             <Carousel.Caption>
-              <h5>IT Consulting Project for <em>Dirt Masters Inc.</em> </h5>
+              <h5>IT and Business Consulting for <em>Dirt Masters Inc.</em> </h5>
               <p className='pb-4 p'>Service in 2023</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>

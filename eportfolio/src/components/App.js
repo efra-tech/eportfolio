@@ -27,7 +27,7 @@ export default function App(props) {
       </main>
 
       <footer>
-        {/* <p className=''>icons are from ""</p> */}
+
       </footer>
     </div>
   );
