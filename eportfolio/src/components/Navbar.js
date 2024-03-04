@@ -4,6 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLayerGroup, faCameraRetro, faFingerprint, faPenRuler, faHippo, faHandScissors, faHandSpock, faWindowMaximize } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithubSquare } from '@fortawesome/free-brands-svg-icons';
 
+import Logo from './fiverr-square-svgrepo-com.svg';
+
 
 export default function Navbar(props) {
 
@@ -24,7 +26,7 @@ export default function Navbar(props) {
   }
   if(brandShow === true) {
     brandProp = activeColor;
-    navWidth = '20.9%';
+    navWidth = '20%';
     ani = "shake 0.9s"
     smallIconShow = 'show';
   } else {
@@ -76,9 +78,11 @@ export default function Navbar(props) {
 
   function hoverHighlightOnSmall(evt){
     evt.target.style.color = "#d7d7d7";
+    evt.target.style.filter = "invert(78%) sepia(0%) saturate(2516%) hue-rotate(315deg) brightness(108%) contrast(102%)";
   }
   function hoverHighlightOffSmall(evt){
     evt.target.style.color = deactiveColor;
+    evt.target.style.filter = 'invert(42%) sepia(9%) saturate(3133%) hue-rotate(179deg) brightness(104%) contrast(92%)';
   }
 
 
@@ -131,7 +135,7 @@ export default function Navbar(props) {
 
           <li className={'nav-item p-3 ' + smallIconShow} onMouseOver={hoverHighlightOnSmall} onMouseOut={hoverHighlightOffSmall}>
             <Link rel="noreferrer" target="_blank" to="https://www.fiverr.com/efra3ahsan?public_mode=true" className='d-flex'>
-              <div className='nav-icon'><FontAwesomeIcon icon={faWindowMaximize} style={{color: "#4c76bd", height: "3.9rem"}}/></div>
+              <div className='nav-icon'><img src={Logo} alt="Fiverr logo" style={{filter: "invert(41%) sepia(72%) saturate(431%) hue-rotate(178deg) brightness(94%) contrast(88%)", height: "4.35rem", marginBottom: '5%'}} /></div>
             </Link>
           </li>
         </li>
