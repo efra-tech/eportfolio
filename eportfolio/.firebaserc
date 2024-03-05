@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "efraahsan"
-  }
+    "default": "efraahsan-7c5da",
+    "efraahsan": "efraahsan-7c5da"
+  },
+  "targets": {},
+  "etags": {}
 }
