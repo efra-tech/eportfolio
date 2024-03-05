@@ -79,7 +79,7 @@ export default function SummaryDiv(props) {
         <div>
           <p className='pt-4'><em style={{fontWeight: '900', textShadow: '1px 1px 1px black', fontSize: '1.55rem', fontStyle: 'normal'}}>Polling and Open Data Initiative @ UW</em> - Data Analyst Initiate</p>
             <p style={{marginTop: '-1.5%', fontSize: '1.45rem', color: 'lightgray'}}>Dec 2022</p>
-            <p style={{fontSize: '1.45rem', marginTop: '-1%'}}>Wrote an exploratory data analysis of crisis contact trends observed about Seattle's UDistrict to broaden understanding of the police data for public safety.</p>
+            <p style={{fontSize: '1.45rem', marginTop: '-1%'}}>Wrote an exploratory data analysis of crisis contact trends observed about Seattle's UDistrict to broaden understanding of police data for a public safety project.</p>
         </div>
         <div>
           <p className='pt-4'><em style={{fontWeight: '900', textShadow: '1px 1px 1px black', fontSize: '1.55rem', fontStyle: 'normal'}}>Neuroscience Undergraduate Reading Program</em> - Educational Presenter</p>
@@ -94,7 +94,7 @@ export default function SummaryDiv(props) {
         <div>
           <p className='pt-4'><em style={{fontWeight: '900', textShadow: '1px 1px 1px black', fontSize: '1.55rem', fontStyle: 'normal'}}>Pakistani Students Association</em> - Social Media & Design Coordinator</p>
             <p style={{marginTop: '-1.5%', fontSize: '1.45rem', color: 'lightgray'}}>Sept 2021 - June 2022</p>
-            <p style={{fontSize: '1.45rem', marginTop: '-1%'}}>Designed Instagram infographics, managed this student organization's social media, and maintained positive relations with related on-campus organizations and sponsorships.</p>
+            <p style={{fontSize: '1.45rem', marginTop: '-1%'}}>Designed and posted Instagram infographics, managed overall social media, and maintained positive relations with related on-campus organizations and sponsorships.</p>
         </div>
       </div>
 
