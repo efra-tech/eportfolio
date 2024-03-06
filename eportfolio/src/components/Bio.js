@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
-import Efra from '../imgs/efra2.jpg';
+import Efra from '../imgs/professionalHeadshot.jpg';
 
 export default function Bio(props) {
   return (
@@ -11,7 +11,7 @@ export default function Bio(props) {
       <div style={{backgroundColor: 'lightgray', marginTop: '1%', height: '0.2rem', marginLeft: '10%', boxShadow: '0px 1px 6px lightgray'}}></div>
 
       <div className='resume-backback p-2' style={{color:'white', marginTop: '-1.9%', height: '87.9%', width: '38%', borderBottom: '7px solid rgb(150, 135, 138)', borderTop: 'none', borderRight: '7px solid rgb(150, 135, 138)', backgroundColor: '#11041e', marginRight: '19.0%', opacity: '1.5'}}>
-        <img src={Efra} alt='my self portrait' style={{width: '21%', marginTop: '2.4%', borderRadius: '2em'}} />
+        <img src={Efra} alt='my self portrait' style={{width: '45%', marginTop: '2.4%', borderRadius: '2em'}} />
         <h2>Hey, I'm Efra Ahsan.</h2>
         <div className='mx-4'>
           <h5>
