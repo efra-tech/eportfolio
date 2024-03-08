@@ -38,7 +38,7 @@ export default function SummaryDiv(props) {
           <p className='pt-4'><em style={{fontWeight: '900', textShadow: '1px 1px 1px black', fontSize: '1.62rem', fontStyle: 'normal'}}>Freelance Web Developer & Digital Designer&nbsp;&nbsp;</em>| &nbsp;May 2023 - Jan 2024</p>
             <p style={{fontSize: '1.45rem'}}>Constructed website and mobile projects for start-ups and companies based within Washington and Texas. I individually fulfilled roles covering webpage development, UX/UI design, and printed graphic design.</p>
 
-          <p className='pt-4'><em style={{fontWeight: '900', textShadow: '1px 1px 1px black', fontSize: '1.62rem', fontStyle: 'normal'}}>Marketing Contractor Intern&nbsp;&nbsp;</em>| &nbsp;April 2022 - June 2022</p>
+          <p className='pt-4'><em style={{fontWeight: '900', textShadow: '1px 1px 1px black', fontSize: '1.62rem', fontStyle: 'normal'}}>Marketing Contractor&nbsp;&nbsp;</em>| &nbsp;April 2022 - June 2022</p>
           <p style={{fontSize: '1.45rem'}}>Connected a stealth wearable technology start-up with potential buyers in King County to build
               a clientele list. I marketed the product over phone and email, and facilitated rendering feedback during product demonstrations.
           </p>
