@@ -1,5 +1,6 @@
 import { React } from 'react';
 
+
 export default function SummaryDiv(props) {
   return(
     <div className='resume-backback rc pb-5 pt-0' style={{fontSize: '1.53rem', width: '97%', color: 'white', backgroundColor: 'black'}}>

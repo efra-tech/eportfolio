@@ -14,6 +14,7 @@ import carousel8 from '../imgs/dirtmasters.png';
 import carousel9 from '../imgs/shinyapp.png';
 
 
+
 export default function Portfolio(props) {
   return (
     <div>
@@ -144,7 +145,7 @@ export default function Portfolio(props) {
           </Carousel.Item>
           <Carousel.Item style={{maxHeight: '650px'}}>
             <div style={{height: '650px'}}>
-              <a href='https://www.dirtmastersinc.com/' target='_blank' rel='noreferrer'><img style={{borderRadius: '2.6rem', borderBottomLeftRadius: '0', border: '2px solid white'}}
+              <a href='https://docs.google.com/document/d/1j6CSH13xq-g03VBcOTWgF9DKclxNUVWKupQCcqLvKiM/edit?usp=sharing' target='_blank' rel='noreferrer'><img style={{borderRadius: '2.6rem', borderBottomLeftRadius: '0', border: '2px solid white'}}
                 className="d-block w-100"
                 src={carousel8}
                 alt="Ninth slide"
