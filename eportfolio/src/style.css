@@ -89,8 +89,8 @@ html > * {
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
-  background-color: #210d36;
-  color: white;
+  background-color: lightgray;
+  color: #351b51;
   z-index: 1;
 }
 
