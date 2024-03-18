@@ -44,13 +44,13 @@ export default function Resume(props) {
       <div style={{backgroundColor: 'lightgray', marginTop: '2.9%', height: '0.2rem', marginLeft: '21.5%', boxShadow: '0px 1px 5px white'}}></div>
       <div style={{backgroundColor: 'lightgray', marginTop: '1.4%', height: '0.2rem', marginLeft: '10%', boxShadow: '0px 1px 5px white'}}></div>
       <div className='d-flex mt-3' style={{paddingTop: '10px', paddingBottom: '100px', color: 'white', fontSize: '1.45rem'}}>
-        <div onClick={handleClickSummary} className='latButton' style={{backgroundColor: '#4c76bd', borderRadius: '0.7rem', textAlign: 'center', marginRight: '1.4rem', width: '14.3rem', marginLeft: '76%', opacity: '70%', borderLeft: '5px solid white'}}>
+        <div onClick={handleClickSummary} className='latButton' style={{backgroundColor: '#4c76bd', borderRadius: '0.7rem', textAlign: 'center', marginRight: '1.4rem', width: '14.3rem', marginLeft: '76%', opacity: '70%'}}>
           <p className='pt-4 pb-2'>Summary</p>
         </div>
-        <div onClick={handleClickPaper} className='latButton' style={{backgroundColor: '#4c76bd', borderRadius: '0.7rem', textAlign: 'center', marginRight: '1.4rem', width: '13.3rem', opacity: '70%', borderLeft: '5px solid white'}}>
+        <div onClick={handleClickPaper} className='latButton' style={{backgroundColor: '#4c76bd', borderRadius: '0.7rem', textAlign: 'center', marginRight: '1.4rem', width: '13.3rem', opacity: '70%', borderBottom: '5px solid pink'}}>
           <p className='pt-4 pb-2'>Resume</p>
         </div>
-        <div onClick={handleClickPub} className='latButton' style={{backgroundColor: '#4c76bd', borderRadius: '0.7rem', textAlign: 'center', marginRight: '1.4rem', width: '16rem', opacity: '70%', borderLeft: '5px solid white'}}>
+        <div onClick={handleClickPub} className='latButton' style={{backgroundColor: '#4c76bd', borderRadius: '0.7rem', textAlign: 'center', marginRight: '1.4rem', width: '16rem', opacity: '70%'}}>
           <p className='pt-4 pb-2'>Publications</p>
         </div>
       </div>
