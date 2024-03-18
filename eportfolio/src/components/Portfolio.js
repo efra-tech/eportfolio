@@ -80,7 +80,7 @@ export default function Portfolio(props) {
               /></a>
             </div>
             <Carousel.Caption>
-              <h5><em>OurFamily</em> Prototype &nbsp;&nbsp;&nbsp;
+              <h5><em>OurFamily</em> Website Prototype &nbsp;&nbsp;&nbsp;
               <a rel="noreferrer" target="_blank" href="https://github.com/info340b-wi23/project-efra-tech"><FontAwesomeIcon icon={faGithubSquare} style={{color: "white", height: "21.8px"}}/></a>
               </h5>
               <p className='pb-4 p'>Published in 2023</p>
@@ -96,7 +96,7 @@ export default function Portfolio(props) {
               /></a>
             </div>
             <Carousel.Caption>
-              <h5><em>Electric Vehicles in WA</em> Interactive Data Analysis&nbsp;&nbsp;&nbsp;
+              <h5><em>Electric Vehicles in WA</em> Interactive Data Analysis & Website&nbsp;&nbsp;&nbsp;
               <a rel="noreferrer" target="_blank" href="https://github.com/info-201a-sp22/final-project-safjam?tab=readme-ov-file"><FontAwesomeIcon icon={faGithubSquare} style={{color: "white", height: "21.8px"}}/></a></h5>
               <p className='pb-4 p'>Published in 2022</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>

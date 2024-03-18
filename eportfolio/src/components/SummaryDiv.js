@@ -1,98 +1,58 @@
 import { React } from 'react';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+
+import img from '../imgs/GM.Instagram.HackConsc.jpeg';
 
 export default function SummaryDiv(props) {
   return(
-    <div className='resume-backback rc pb-5 pt-0' style={{fontSize: '1.53rem', width: '97%', color: 'white', backgroundColor: 'black'}}>
+    <div className='resume-backback rc pb-5 pt-0' style={{fontSize: '1.53rem', width: '100%', color: 'white', backgroundColor: 'black', borderRadius: '2%', marginTop: '-5.2%', height: '74.5vh', boxShadow: '0 4px 2px -2px darkgray'}}>
 
       <div className='staticTop'>
-        <h1>Summary</h1>
+        <h1 style={{fontSize: '24px'}}>Volunteering, Achievements & Publications</h1>
       </div>
 
-      <div className='resume-back rc pb-2 pt-3' style={{overflowY: 'scroll'}}>
-        <h1 style={{color:'white', textShadow: '1px 1px 1px black', fontWeight: '900', fontSize: '2rem', fontStyle: 'italic'}}>Summary</h1>
-        <div className='pb-2'>
-          <ul className='py-4'>
-            <li>Website developer, creative, and goal-driven.</li>
-            <li>Three years of experience working with web technology, data programming, and design.</li>
-            <li>Achieved a successful open-source app project, recipient of annual Capstone Research Award from University of Washington Information School 2023.</li>
-          </ul>
-        </div>
-        <div>
-          <p><em style={{fontWeight: '900', textShadow: '1px 1px 1px black', fontSize: '1.5rem', fontStyle: 'normal'}}>{'>>'} IT Skills:&nbsp;&nbsp;</em></p>
-            <p>Front-End Development, &nbsp;Programming, &nbsp;UX/UI Design, &nbsp;Project Management, &nbsp;Marketing, &nbsp;IT Consulting</p>
-
-          <p><em style={{fontWeight: '900', textShadow: '1px 1px 1px black', fontSize: '1.5rem', fontStyle: 'normal'}}>{'>>'} Programming Languages:&nbsp;&nbsp;</em></p>
-          <p>Python - JavaScript - CSS - HTML - R - SQLite</p>
-
-        </div>
-      </div>
-
-      <div className='resume-back rc pb-2 pt-3' style={{overflowY: 'scroll'}}>
-        <h1 style={{color:'white', textShadow: '1px 1px 1px black', fontWeight: '900', fontSize: '2rem', fontStyle: 'italic'}}>Professional Experience</h1>
-        <div>
-          <p className='pt-4'><em style={{fontWeight: '900', textShadow: '1px 1px 1px black', fontSize: '1.62rem', fontStyle: 'normal'}}>Freelance Web Developer & Digital Designer&nbsp;&nbsp;</em>| &nbsp;May 2023 - Jan 2024</p>
-            <p style={{fontSize: '1.45rem'}}>Constructed website and mobile projects for start-ups and companies based within Washington and Texas. I individually fulfilled roles covering webpage development, UX/UI design, and printed graphic design.</p>
-
-          <p className='pt-4'><em style={{fontWeight: '900', textShadow: '1px 1px 1px black', fontSize: '1.62rem', fontStyle: 'normal'}}>Marketing Contractor&nbsp;&nbsp;</em>| &nbsp;April 2022 - June 2022</p>
-          <p style={{fontSize: '1.45rem'}}>Connected a stealth wearable technology start-up with potential buyers in King County to build
-              a clientele list. I marketed the product over phone and email, and facilitated rendering feedback during product demonstrations.
-          </p>
-
-          <p className='pt-3' style={{color: 'lightgray'}}>See more at my <a href='/portfolio' style={{fontWeight: '600'}}>portfolio</a>.</p>
-
-        </div>
-      </div>
-
-      <div className='resume-back rc pb-2 pt-3' style={{overflowY: 'scroll', fontSize: '1.49rem'}}>
-        <h1 style={{color:'white', textShadow: '1px 1px 1px black', fontWeight: '900', fontSize: '2rem', fontStyle: 'italic'}}>Education</h1>
-        <div className='d-flex mt-4'>
-          <div>
-            <p style={{textShadow: '5px 2px 6px purple', color:'white', fontWeight: '900', fontSize: '1.55rem'}}>University of Washington</p>
-            <p style={{fontWeight: '900', textShadow: '1px 1px 1px black'}}>Bachelor of Science, <i style={{fontWeight: '500', fontStyle: 'normal'}}>Informatics</i></p>
-            {/* <p style={{marginTop: '-1%', fontSize: '1.35rem'}}>Successful completion of courses in building information technology, designing information experiences, and questioning the use and impact of IT.</p> */}
-            <p className='py-0 my-0' style={{fontSize: '1.3rem'}}>{'>>'} iSchool Capstone Research Award 2023, Annual Dean’s List 2022 - 2023</p>
-          </div>
-          <div style={{position: 'absolute', right: '19%', textAlign: 'right'}}>
-            <p style={{fontWeight: '900'}}><i>2020 - 2023</i></p>
-            <p style={{ fontSize: '1.5rem'}}><i>Seattle, WA</i></p>
-          </div>
-        </div>
-        <div className='d-flex mt-5'>
-          <div>
-            <p style={{textShadow: '5px 2px 7px darkblue', color:'white', fontWeight: '900', fontSize: '1.55rem'}}>Clark College</p>
-            <p style={{fontWeight: '900', textShadow: '1px 1px 1px black'}}>High School Dual Enrollment - Pre-Sciences</p>
-            {/* <p style={{marginTop: '-1%', fontSize: '1.35rem'}}>Successful completion of credits for General Education.</p> */}
-            <p className='py-0 my-0' style={{fontSize: '1.3rem'}}>{'>>'} Vice President's List Fall 2019 & Spring 2020</p>
-          </div>
-          <div style={{position: 'absolute', right: '19%', textAlign: 'right'}}>
-            <p style={{fontWeight: '900'}}><i>2018 - 2020</i></p>
-            <p style={{ fontSize: '1.44rem'}}><i>Vancouver, WA</i></p>
-          </div>
-        </div>
-      </div>
-
-      <div className='resume-back rc pb-2 pt-3' style={{overflowY: 'scroll'}}>
+      <div className='resume-back rc pb-2 pt-3 mt-1' style={{overflowY: 'scroll'}}>
         <h1 style={{color:'white', textShadow: '1px 1px 1px black', fontWeight: '900', fontSize: '2rem', fontStyle: 'italic'}}>Volunteering & Achievements</h1>
-        <div>
-          <p className='pt-4'><em style={{fontWeight: '900', textShadow: '1px 1px 1px black', fontSize: '1.55rem', fontStyle: 'normal'}}>Polling and Open Data Initiative @ UW</em> - Data Analyst Initiate</p>
-            <p style={{marginTop: '-1.5%', fontSize: '1.45rem', color: 'lightgray'}}>Dec 2022</p>
-            <p style={{fontSize: '1.45rem', marginTop: '-1%'}}>Wrote an exploratory data analysis of crisis contact trends observed about Seattle's UDistrict to broaden understanding of police data for a public safety project.</p>
+        <div style={{borderLeft: '1.3px solid white', paddingLeft: '9px', marginTop: '3%', marginLeft: '2%'}}>
+          <p className='pt-4'><em style={{fontWeight: '900', textShadow: '1px 1px 1px black', fontSize: '1.5rem', fontStyle: 'normal'}}>Polling and Open Data Initiative @ UW</em> - Data Analyst Initiate</p>
+            <p style={{marginTop: '-1.5%', fontSize: '1.4rem', color: 'lightgray'}}>Dec 2022</p>
+            <p style={{fontSize: '1.4rem', marginTop: '-1%'}}>Wrote an exploratory data analysis of crisis contact trends observed about Seattle's UDistrict to broaden understanding of police data for a public safety project.</p>
         </div>
-        <div>
-          <p className='pt-4'><em style={{fontWeight: '900', textShadow: '1px 1px 1px black', fontSize: '1.55rem', fontStyle: 'normal'}}>Neuroscience Undergraduate Reading Program</em> - Educational Presenter</p>
-            <p style={{marginTop: '-1.5%', fontSize: '1.45rem', color: 'lightgray'}}>Sept 2022 - Dec 2022</p>
-            <p style={{fontSize: '1.45rem', marginTop: '-1%'}}>Presented a fun overview of literature studying the human-computer interaction with voice-user interface.</p>
+        <div style={{borderLeft: '1.3px solid white', paddingLeft: '9px', marginLeft: '2%', backgroundColor: 'rgba(255, 255, 255, 0.05)', paddingBottom: '1%', marginBottom: '1%'}}>
+          <p className='pt-4'><em style={{fontWeight: '900', textShadow: '1px 1px 1px black', fontSize: '1.5rem', fontStyle: 'normal'}}>Neuroscience Undergraduate Reading Program</em> - Educational Presenter</p>
+            <p style={{marginTop: '-1.5%', fontSize: '1.4rem', color: 'lightgray'}}>Sept 2022 - Dec 2022</p>
+            <p style={{fontSize: '1.4rem', marginTop: '-1%'}}>Presented a fun overview of literature studying the human-computer interaction with voice-user interface.</p>
         </div>
-        <div>
-          <p className='pt-4'><em style={{fontWeight: '900', textShadow: '1px 1px 1px black', fontSize: '1.55rem', fontStyle: 'normal'}}>The Citizens Foundation-USA UW Chapter</em> - Events Coordinator</p>
-            <p style={{marginTop: '-1.5%', fontSize: '1.45rem', color: 'lightgray'}}>March 2022 - Dec 2022</p>
-            <p style={{fontSize: '1.45rem', marginTop: '-1%'}}>Coordinated successful on-campus fundraising events and professional banquets for a non-profit organization which provides education to underprivileged children and women in Pakistan.</p>
+        <div style={{borderLeft: '1.3px solid white', paddingLeft: '9px', marginLeft: '2%'}}>
+          <p className='pt-4'><em style={{fontWeight: '900', textShadow: '1px 1px 1px black', fontSize: '1.5rem', fontStyle: 'normal'}}>The Citizens Foundation-USA UW Chapter</em> - Events Coordinator</p>
+            <p style={{marginTop: '-1.5%', fontSize: '1.4rem', color: 'lightgray'}}>March 2022 - Dec 2022</p>
+            <p style={{fontSize: '1.4rem', marginTop: '-1%'}}>Coordinated successful on-campus fundraising events and professional banquets for a non-profit organization which provides education to underprivileged children and women in Pakistan.</p>
         </div>
-        <div>
-          <p className='pt-4'><em style={{fontWeight: '900', textShadow: '1px 1px 1px black', fontSize: '1.55rem', fontStyle: 'normal'}}>Pakistani Students Association</em> - Social Media & Design Coordinator</p>
-            <p style={{marginTop: '-1.5%', fontSize: '1.45rem', color: 'lightgray'}}>Sept 2021 - June 2022</p>
-            <p style={{fontSize: '1.45rem', marginTop: '-1%'}}>Designed and posted Instagram infographics, managed overall social media, and maintained positive relations with related on-campus organizations and sponsorships.</p>
+        <div style={{borderLeft: '1.3px solid white', paddingLeft: '9px', marginLeft: '2%', backgroundColor: 'rgba(255, 255, 255, 0.05)', paddingBottom: '1%', marginBottom: '1%'}}>
+          <p className='pt-4'><em style={{fontWeight: '900', textShadow: '1px 1px 1px black', fontSize: '1.5rem', fontStyle: 'normal'}}>Pakistani Students Association</em> - Social Media & Design Coordinator</p>
+            <p style={{marginTop: '-1.5%', fontSize: '1.4rem', color: 'lightgray'}}>Sept 2021 - June 2022</p>
+            <p style={{fontSize: '1.4rem', marginTop: '-1%'}}>Designed and posted Instagram infographics, managed overall social media, and maintained positive relations with related on-campus organizations and sponsorships.</p>
+        </div>
+      </div>
+
+      <div className='resume-back rc pb-2 pt-3' style={{overflowY: 'scroll'}}>
+        <h1 style={{color:'white', textShadow: '1px 1px 1px black', fontWeight: '900', fontSize: '2rem', fontStyle: 'italic'}}>Publications</h1>
+
+        <div className='resume-back rc pb-2 pt-5' style={{overflowY: 'scroll', backgroundColor: 'rgba(14, 5, 5, 0.883)'}}>
+          <a href='https://greymattersjournal.org/hacking-consciousness-mindfulness-meditation-ego-death-and-enlightenment-engineering/' rel="noreferrer" target='_blank'><div className='card'>
+            <div className='d-flex'>
+              <img className="card-img-top" src={img} style={{width: '213px'}} alt="Illustration from article: Free From Ego" />
+              <div className='card-body'>
+                <h1 className='card-title pb-2' style={{color: 'black', fontSize: '2rem'}}>Hacking Consciousness: Mindfulness Meditation, Ego Death, and Enlightenment Engineering</h1>
+                <p className='card-text' style={{color: 'gray'}}>Grey Matters Undergraduate Neuroscience Journal, Issue 25</p>
+                <p className='card-text' style={{color: 'gray'}}>15 OCT 2023</p>
+                <a className='pubHyperLink' rel="noreferrer" target="_blank" href="https://www.linkedin.com/posts/efra-ahsan-4b49a0228_hacking-consciousness-mindfulness-meditation-activity-7138436623712600064-NQeI?utm_source=share&utm_medium=member_desktop"><FontAwesomeIcon icon={faLinkedin} style={{color: '#4c76bd', height: "2.6rem"}}/></a>
+
+              </div>
+            </div>
+          </div></a>
         </div>
       </div>
 

@@ -58,7 +58,7 @@ html > * {
 }
 
 .bio-back, .resume-back, .resume-backback {
-  background-color: rgba(14, 5, 5, 0.883);
+  background-color: rgba(21, 10, 10, 0.883);
   border: 20px solid rgba(0, 0, 0, 0.144);
   width: 80%;
   padding-left: 0;
@@ -79,7 +79,6 @@ html > * {
 .resume-backback {
   position: absolute;
   overflow: auto;
-  /* border: 2.2px solid rgb(150, 135, 138); */
   border-bottom: none;
   height: 67vh;
   right: 0%;
@@ -90,7 +89,7 @@ html > * {
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
-  background-color: rgba(156, 151, 151, 0.852);
+  background-color: #210d36;
   color: white;
   z-index: 1;
 }
@@ -114,12 +113,7 @@ html > * {
 }
 
 .latButton:hover {
-  background-color: pink !important;
   font-weight: 900;
-}
-
-.card {
-  height: 50%;
 }
 
 h5 {
@@ -165,7 +159,7 @@ h5 a:hover {
 }
 
 .carousel-control-next-icon {
-  margin-left: 211.5%;
+  margin-left: 210.1%;
 }
 
 .biobox p {
