@@ -136,7 +136,7 @@ h5 > em {
 
 a > img:hover {
   opacity: 0.71 !important;
-  border: 6px solid pink !important;
+  border: 6px solid black !important;
 }
 
 a > img {
@@ -194,7 +194,3 @@ h5 a:hover {
 .carousel-indicators > button:nth-child(9) {
   margin-right: 13% !important;
 }
-
-/* .carousel-indicators {
-  z-index: 0;
-} */
