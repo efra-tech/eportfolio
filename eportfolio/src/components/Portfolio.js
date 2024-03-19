@@ -9,7 +9,7 @@ import carousel3 from '../imgs/atlas.png';
 import carousel4 from '../imgs/OurFamily2.png';
 import carousel5 from '../imgs/Mexikhaanaa.png';
 import carousel6 from '../imgs/Veeve2.png';
-import carousel7 from '../imgs/synaptech3.png';
+import carousel7 from '../imgs/syanptech.png';
 import carousel8 from '../imgs/dirtmasters.png';
 import carousel9 from '../imgs/shinyapp.png';
 import carouselX from '../imgs/winfo.png'
@@ -34,7 +34,7 @@ export default function Portfolio(props) {
             </div>
             <Carousel.Caption>
               <h5>
-                <em>GardenSpace</em> Open-Source Website&nbsp;&nbsp;&nbsp;
+                <em>GardenSpace</em> Open-Source Data & Website&nbsp;&nbsp;&nbsp;
                 <a rel="noreferrer" target="_blank" href="https://github.com/efra-tech/icapstone"><FontAwesomeIcon icon={faGithubSquare} style={{color: "white", height: "21.8px"}}/></a>
                 </h5>
               <p className='pb-4 p'>Published in 2023</p>
@@ -50,7 +50,7 @@ export default function Portfolio(props) {
               /></a>
             </div>
             <Carousel.Caption>
-              <h5><em>Synaptech @ UW</em> Website&nbsp;&nbsp;&nbsp;
+              <h5><em>Synaptech @ UW</em> Website & Brandbook&nbsp;&nbsp;&nbsp;
                 <a rel="noreferrer" target="_blank" href="https://github.com/synaptech-uw/uwsynaptech-website"><FontAwesomeIcon icon={faGithubSquare} style={{color: "white", height: "21.8px"}}/></a>
               </h5>
               <p className='pb-4 p'>Published in 2022</p>
@@ -111,7 +111,7 @@ export default function Portfolio(props) {
               /></a>
             </div>
             <Carousel.Caption>
-              <h5><em>YouFeed</em> Website and Mobile Design</h5>
+              <h5><em>YouFeed</em> Website & Mobile Design</h5>
               <p className='pb-4 p'>Service in 2023</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
@@ -167,7 +167,7 @@ export default function Portfolio(props) {
               /></a>
             </div>
             <Carousel.Caption>
-              <h5>IT and Business Consulting for <em>Dirt Masters, Inc.</em> </h5>
+              <h5>IT & Business Consulting for <em>Dirt Masters, Inc.</em> </h5>
               <p className='pb-4 p'>Service in 2023</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>

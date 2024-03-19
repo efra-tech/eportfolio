@@ -139,6 +139,10 @@ a > img:hover {
   border: 6px solid pink !important;
 }
 
+a > img {
+  z-index: 1;
+}
+
 h5 a:hover {
   opacity: 0.72;
 }
@@ -180,7 +184,7 @@ h5 a:hover {
 
 .carousel-indicators > button {
   padding: 1rem !important;
-  margin-top: 100% !important;
+  margin-top: 4% !important;
 }
 
 .carousel-indicators > button:nth-child(6) {
@@ -191,6 +195,6 @@ h5 a:hover {
   margin-right: 13% !important;
 }
 
-.carousel-indicators > button:hover {
-  background-color: pink !important;
-}
+/* .carousel-indicators {
+  z-index: 0;
+} */
