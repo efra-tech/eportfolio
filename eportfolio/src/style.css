@@ -135,7 +135,7 @@ h5 > em {
 }
 
 a > img:hover {
-  opacity: 0.71 !important;
+  opacity: 0.75 !important;
   border: 6px solid black !important;
 }
 
