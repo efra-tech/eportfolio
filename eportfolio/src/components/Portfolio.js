@@ -9,9 +9,10 @@ import carousel3 from '../imgs/atlas.png';
 import carousel4 from '../imgs/OurFamily2.png';
 import carousel5 from '../imgs/Mexikhaanaa.png';
 import carousel6 from '../imgs/Veeve2.png';
-import carousel7 from '../imgs/synaptech3.png';
+import carousel7 from '../imgs/syanptech.png';
 import carousel8 from '../imgs/dirtmasters.png';
 import carousel9 from '../imgs/shinyapp.png';
+import carouselX from '../imgs/winfo.png'
 
 
 
@@ -33,7 +34,7 @@ export default function Portfolio(props) {
             </div>
             <Carousel.Caption>
               <h5>
-                <em>GardenSpace</em> Open-Source Website&nbsp;&nbsp;&nbsp;
+                <em>GardenSpace</em> Open-Source Data & Website&nbsp;&nbsp;&nbsp;
                 <a rel="noreferrer" target="_blank" href="https://github.com/efra-tech/icapstone"><FontAwesomeIcon icon={faGithubSquare} style={{color: "white", height: "21.8px"}}/></a>
                 </h5>
               <p className='pb-4 p'>Published in 2023</p>
@@ -49,7 +50,7 @@ export default function Portfolio(props) {
               /></a>
             </div>
             <Carousel.Caption>
-              <h5><em>Synaptech @ UW</em> Website&nbsp;&nbsp;&nbsp;
+              <h5><em>Synaptech @ UW</em> Website & Brandbook&nbsp;&nbsp;&nbsp;
                 <a rel="noreferrer" target="_blank" href="https://github.com/synaptech-uw/uwsynaptech-website"><FontAwesomeIcon icon={faGithubSquare} style={{color: "white", height: "21.8px"}}/></a>
               </h5>
               <p className='pb-4 p'>Published in 2022</p>
@@ -66,7 +67,7 @@ export default function Portfolio(props) {
             </div>
             <Carousel.Caption>
               <h5><em>atlas.</em> Website</h5>
-              <p className='pb-4 p'>Published in 2023</p>
+              <p className='pb-4 p'>Service in 2023</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -79,7 +80,7 @@ export default function Portfolio(props) {
               /></a>
             </div>
             <Carousel.Caption>
-              <h5><em>OurFamily</em> Website &nbsp;&nbsp;&nbsp;
+              <h5><em>OurFamily</em> Website Prototype &nbsp;&nbsp;&nbsp;
               <a rel="noreferrer" target="_blank" href="https://github.com/info340b-wi23/project-efra-tech"><FontAwesomeIcon icon={faGithubSquare} style={{color: "white", height: "21.8px"}}/></a>
               </h5>
               <p className='pb-4 p'>Published in 2023</p>
@@ -95,7 +96,7 @@ export default function Portfolio(props) {
               /></a>
             </div>
             <Carousel.Caption>
-              <h5><em>Electric Vehicles in WA</em> Interactive Data Analysis&nbsp;&nbsp;&nbsp;
+              <h5><em>Electric Vehicles in WA</em> Interactive Data Analysis & Website&nbsp;&nbsp;&nbsp;
               <a rel="noreferrer" target="_blank" href="https://github.com/info-201a-sp22/final-project-safjam?tab=readme-ov-file"><FontAwesomeIcon icon={faGithubSquare} style={{color: "white", height: "21.8px"}}/></a></h5>
               <p className='pb-4 p'>Published in 2022</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
@@ -110,8 +111,22 @@ export default function Portfolio(props) {
               /></a>
             </div>
             <Carousel.Caption>
-              <h5><em>YouFeed</em> Website and Mobile Design</h5>
-              <p className='pb-4 p'>Published in 2023</p>
+              <h5><em>YouFeed</em> Website & Mobile Design</h5>
+              <p className='pb-4 p'>Service in 2023</p>
+              <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item style={{maxHeight: '650px'}}>
+            <div style={{height: '650px'}}>
+              <a href='https://veeve.io/' target='_blank' rel='noreferrer'><img style={{borderRadius: '2.6rem', borderBottomLeftRadius: '0', border: '2px solid white'}}
+                className="d-block w-100"
+                src={carousel6}
+                alt="Seventh slide"
+              /></a>
+            </div>
+            <Carousel.Caption>
+              <h5 style={{marginBottom: '0px'}}>UX Interface Design for <em>Veeve, Inc.</em></h5>
+              <p style={{marginBottom: '0px'}} className='pb-4 p'>Service in 2023</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -120,7 +135,7 @@ export default function Portfolio(props) {
               <a href='https://www.instagram.com/mexi_khaana/' target='_blank' rel='noreferrer'><img style={{borderRadius: '2.6rem', borderBottomLeftRadius: '0', border: '2px solid white'}}
                 className="d-block w-100"
                 src={carousel5}
-                alt="Seventh slide"
+                alt="Eighth slide"
               /></a>
             </div>
             <Carousel.Caption>
@@ -131,28 +146,28 @@ export default function Portfolio(props) {
           </Carousel.Item>
           <Carousel.Item style={{maxHeight: '650px'}}>
             <div style={{height: '650px'}}>
-              <a href='https://veeve.io/' target='_blank' rel='noreferrer'><img style={{borderRadius: '2.6rem', borderBottomLeftRadius: '0', border: '2px solid white'}}
+              <a href='https://docs.google.com/presentation/d/1E36n9jn_-QYEovrSV2GTvDzJF1sB1dRnxEPbqeOCc68/edit#slide=id.g10c7f33c797_94_0' target='_blank' rel='noreferrer'><img style={{borderRadius: '2.6rem', borderBottomLeftRadius: '0', border: '2px solid white'}}
                 className="d-block w-100"
-                src={carousel6}
-                alt="Eighth slide"
+                src={carouselX}
+                alt="Ninth slide"
               /></a>
             </div>
             <Carousel.Caption>
-              <h5 style={{marginBottom: '0px'}}>UX Interface Design for <em>Veeve Inc.</em></h5>
-              <p style={{marginBottom: '0px'}} className='pb-4 p'>Service in 2023</p>
+              <h5><em>Habitat</em> Prototype Design</h5>
+              <p className='pb-4 p'>UW Women in Informatics Annual Hackathon 2022</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item style={{maxHeight: '650px'}}>
             <div style={{height: '650px'}}>
-              <a href='https://docs.google.com/document/d/1j6CSH13xq-g03VBcOTWgF9DKclxNUVWKupQCcqLvKiM/edit?usp=sharing' target='_blank' rel='noreferrer'><img style={{borderRadius: '2.6rem', borderBottomLeftRadius: '0', border: '2px solid white'}}
+              <a href='https://www.dirtmastersinc.com/' target='_blank' rel='noreferrer'><img style={{borderRadius: '2.6rem', borderBottomLeftRadius: '0', border: '2px solid white'}}
                 className="d-block w-100"
                 src={carousel8}
-                alt="Ninth slide"
+                alt="Tenth slide"
               /></a>
             </div>
             <Carousel.Caption>
-              <h5>IT and Business Consulting for <em>Dirt Masters Inc.</em> </h5>
+              <h5>IT & Business Consulting for <em>Dirt Masters, Inc.</em> </h5>
               <p className='pb-4 p'>Service in 2023</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>

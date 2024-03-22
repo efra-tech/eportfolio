@@ -58,7 +58,7 @@ html > * {
 }
 
 .bio-back, .resume-back, .resume-backback {
-  background-color: rgba(14, 5, 5, 0.883);
+  background-color: rgba(21, 10, 10, 0.883);
   border: 20px solid rgba(0, 0, 0, 0.144);
   width: 80%;
   padding-left: 0;
@@ -79,7 +79,6 @@ html > * {
 .resume-backback {
   position: absolute;
   overflow: auto;
-  /* border: 2.2px solid rgb(150, 135, 138); */
   border-bottom: none;
   height: 67vh;
   right: 0%;
@@ -90,8 +89,8 @@ html > * {
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
-  background-color: rgba(156, 151, 151, 0.852);
-  color: white;
+  background-color: lightgray;
+  color: #351b51;
   z-index: 1;
 }
 
@@ -114,12 +113,7 @@ html > * {
 }
 
 .latButton:hover {
-  background-color: pink !important;
   font-weight: 900;
-}
-
-.card {
-  height: 50%;
 }
 
 h5 {
@@ -141,8 +135,12 @@ h5 > em {
 }
 
 a > img:hover {
-  opacity: 0.71;
-  border: 4px solid white !important;
+  opacity: 0.75 !important;
+  border: 6px solid black !important;
+}
+
+a > img {
+  z-index: 1;
 }
 
 h5 a:hover {
@@ -156,12 +154,16 @@ h5 a:hover {
   padding-right: 2rem;
 }
 
+.carousel-control-prev, .carousel-control-next {
+  width: 5%;
+}
+
 .carousel-control-prev-icon {
-  margin-left: -129.9%;
+  margin-left: -211.7%;
 }
 
 .carousel-control-next-icon {
-  margin-left: 128.5%;
+  margin-left: 210.1%;
 }
 
 .biobox p {
@@ -182,18 +184,13 @@ h5 a:hover {
 
 .carousel-indicators > button {
   padding: 1rem !important;
-  margin-top: 100% !important;
-
+  margin-top: 4% !important;
 }
 
 .carousel-indicators > button:nth-child(6) {
   margin-right: 13% !important;
 }
 
-.carousel-indicators > button:nth-child(8) {
+.carousel-indicators > button:nth-child(9) {
   margin-right: 13% !important;
-}
-
-.carousel-indicators > button:hover {
-  background-color: pink !important;
 }
