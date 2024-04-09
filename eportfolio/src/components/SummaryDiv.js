@@ -10,7 +10,7 @@ export default function SummaryDiv(props) {
     <div className='resume-backback rc pb-5 pt-0' style={{fontSize: '1.53rem', width: '100%', color: 'white', backgroundColor: 'black', borderRadius: '2%', marginTop: '-5.2%', height: '74.5vh', boxShadow: '0 4px 2px -2px darkgray'}}>
 
       <div className='staticTop'>
-        <h1 style={{fontSize: '24px'}}>Volunteering, Achievements & Publications</h1>
+        <h1 style={{fontSize: '24px', textShadow: '1px 1px white'}} className='p-2'>Volunteering, Achievements & Publications</h1>
       </div>
 
       <div className='resume-back rc pb-2 pt-3 mt-1' style={{overflowY: 'scroll'}}>

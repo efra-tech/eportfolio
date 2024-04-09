@@ -50,7 +50,7 @@ export default function Portfolio(props) {
               /></a>
             </div>
             <Carousel.Caption>
-              <h5><em>Synaptech @ UW</em> Website & Brandbook&nbsp;&nbsp;&nbsp;
+              <h5><em>Synaptech @ UW</em> Brandbook Design & Website&nbsp;&nbsp;&nbsp;
                 <a rel="noreferrer" target="_blank" href="https://github.com/synaptech-uw/uwsynaptech-website"><FontAwesomeIcon icon={faGithubSquare} style={{color: "white", height: "21.8px"}}/></a>
               </h5>
               <p className='pb-4 p'>Published in 2022</p>
@@ -66,7 +66,7 @@ export default function Portfolio(props) {
               /></a>
             </div>
             <Carousel.Caption>
-              <h5><em>atlas.</em> Website</h5>
+              <h5><em>atlas.</em> Website Landing Page</h5>
               <p className='pb-4 p'>Service in 2023</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
@@ -80,7 +80,7 @@ export default function Portfolio(props) {
               /></a>
             </div>
             <Carousel.Caption>
-              <h5><em>OurFamily</em> Website Prototype &nbsp;&nbsp;&nbsp;
+              <h5><em>OurFamily</em> Archive Application Prototype &nbsp;&nbsp;&nbsp;
               <a rel="noreferrer" target="_blank" href="https://github.com/info340b-wi23/project-efra-tech"><FontAwesomeIcon icon={faGithubSquare} style={{color: "white", height: "21.8px"}}/></a>
               </h5>
               <p className='pb-4 p'>Published in 2023</p>
@@ -125,7 +125,7 @@ export default function Portfolio(props) {
               /></a>
             </div>
             <Carousel.Caption>
-              <h5 style={{marginBottom: '0px'}}>UX Interface Design for <em>Veeve, Inc.</em></h5>
+              <h5 style={{marginBottom: '0px'}}>UX/UI Grocery Cart Tablet Design for <em>Veeve, Inc.</em></h5>
               <p style={{marginBottom: '0px'}} className='pb-4 p'>Service in 2023</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
@@ -153,7 +153,7 @@ export default function Portfolio(props) {
               /></a>
             </div>
             <Carousel.Caption>
-              <h5><em>Habitat</em> Prototype Design</h5>
+              <h5><em>Habitat</em> Mobile Design Prototype</h5>
               <p className='pb-4 p'>UW Women in Informatics Annual Hackathon 2022</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>

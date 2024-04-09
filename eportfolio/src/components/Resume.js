@@ -39,10 +39,10 @@ export default function Resume(props) {
       <div style={{backgroundColor: 'lightgray', marginTop: '2.9%', height: '0.2rem', marginLeft: '21.5%', boxShadow: '0px 1px 5px white'}}></div>
       <div style={{backgroundColor: 'lightgray', marginTop: '1.4%', height: '0.2rem', marginLeft: '10%', boxShadow: '0px 1px 5px white'}}></div>
       <div className='d-flex mt-3' style={{paddingTop: '10px', paddingBottom: '100px', color: 'white', fontSize: '1.4rem'}}>
-        <div onClick={handleClickPaper} className='latButton' style={{backgroundColor: activeBtn === 0 ? 'pink' : '#4c76bd', borderRadius: '0.7rem', textAlign: 'center', marginRight: '1.4rem', width: '12.8rem', marginLeft: '76%', opacity: '70%'}}>
+        <div onClick={handleClickPaper} className='latButton' style={{backgroundColor: activeBtn === 0 ? '#AAB3C6' : '#4c76bd', borderRadius: '0.7rem', textAlign: 'center', marginRight: '1.4rem', width: '12.8rem', marginLeft: '76%', opacity: '70%'}}>
           <p className='pt-4 pb-2'>Resume</p>
         </div>
-        <div onClick={handleClickSummary} className='latButton' style={{backgroundColor: activeBtn === 1 ? 'pink' : '#4c76bd', borderRadius: '0.7rem', textAlign: 'center', marginRight: '1.4rem', width: '16.8rem', opacity: '70%'}}>
+        <div onClick={handleClickSummary} className='latButton' style={{backgroundColor: activeBtn === 1 ? '#AAB3C6' : '#4c76bd', borderRadius: '0.7rem', textAlign: 'center', marginRight: '1.4rem', width: '16.8rem', opacity: '70%'}}>
           <p className='pt-4 pb-2'>Extracurriculars</p>
         </div>
       </div>
