@@ -91,7 +91,7 @@ export default function Navbar(props) {
       <ul className='navbar navbar-nav row' style={{width: navWidth}}>
 
         <li className='d-flex'>
-          <NavLink to="/portfolio" className='d-flex'>
+          <NavLink to="/" className='d-flex'>
             <div className='nav-icon'><FontAwesomeIcon icon={ faHandScissors } style={{color: brandProp, height: "5rem", animation: ani, position: 'absolute'}}/></div>
             <div className='nav-name' style={{color: brandProp, position: 'absolute', paddingLeft: '14%', paddingBottom: '2%', fontFamily: 'short stack, sans-serif', fontSize: '3.9rem'}}><p>efra</p>ahsan</div>
           </NavLink>
