@@ -11,7 +11,7 @@ export default function Bio(props) {
       <div style={{backgroundColor: 'lightgray', marginTop: '1%', height: '0.05rem', marginLeft: '10%', boxShadow: '0px 1px 6px lightgray'}}></div>
 
       <div className='resume-backback p-2' style={{color:'white', marginTop: '-1.5%', height: '87.9%', width: '43%', borderTop: 'none', backgroundColor: '#11041e', marginRight: '19.0%', opacity: '1.5'}}>
-        <img src={Efra} alt='my self portrait' style={{width: '45%', marginTop: '2.4%', borderRadius: '2em'}} />
+        <img src={Efra} alt='my self portrait' style={{width: '39%', marginTop: '2.4%', borderRadius: '100%'}} />
         <h2>Hey, I'm Efra Ahsan.</h2>
         <div className='mx-4'>
           <h5>
