@@ -13,6 +13,7 @@ import carousel7 from '../imgs/syanptech.png';
 import carousel8 from '../imgs/dirtmasters.png';
 import carousel9 from '../imgs/shinyapp.png';
 import carouselX from '../imgs/winfo.png'
+import carouselY from '../imgs/LLC.png';
 
 
 
@@ -132,15 +133,15 @@ export default function Portfolio(props) {
           </Carousel.Item>
           <Carousel.Item style={{maxHeight: '650px'}}>
             <div style={{height: '650px'}}>
-              <a href='https://www.instagram.com/mexi_khaana/' target='_blank' rel='noreferrer'><img style={{borderRadius: '2.6rem', borderBottomLeftRadius: '0', border: '2px solid white'}}
+              <a href='https://www.instagram.com/eatmexikhana/' target='_blank' rel='noreferrer'><img style={{borderRadius: '2.6rem', borderBottomLeftRadius: '0', border: '2px solid white'}}
                 className="d-block w-100"
-                src={carousel5}
+                src={carouselY}
                 alt="Eighth slide"
               /></a>
             </div>
             <Carousel.Caption>
-              <h5><em>MexiKhaana</em> Food Cart Graphic Design</h5>
-              <p className='pb-4 p'>Service in 2023</p>
+              <h5><em>MexiKhana</em> Food Cart Digital Design</h5>
+              <p className='pb-4 p'>Service in 2023 & 2024</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
           </Carousel.Item>
