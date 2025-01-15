@@ -9,7 +9,7 @@ import Logo from './fiverr-square-svgrepo-com.svg';
 
 export default function Navbar(props) {
 
-  const activeColor = 'pink';
+  const activeColor = 'white';
   const deactiveColor = '#4c76bd';
 
   let ani = "none";

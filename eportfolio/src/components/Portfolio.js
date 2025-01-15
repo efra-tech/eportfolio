@@ -35,7 +35,7 @@ export default function Portfolio(props) {
             </div>
             <Carousel.Caption>
               <h5>
-                <em>GardenSpace</em> Open-Source Data & Website&nbsp;&nbsp;&nbsp;
+                <em>GardenSpace</em> Open-Source Data & Cross-Platform Website&nbsp;&nbsp;&nbsp;
                 <a rel="noreferrer" target="_blank" href="https://github.com/efra-tech/icapstone"><FontAwesomeIcon icon={faGithubSquare} style={{color: "white", height: "21.8px"}}/></a>
                 </h5>
               <p className='pb-4 p'>Published in 2023</p>
@@ -51,7 +51,7 @@ export default function Portfolio(props) {
               /></a>
             </div>
             <Carousel.Caption>
-              <h5><em>Synaptech @ UW</em> Brandbook Design & Website&nbsp;&nbsp;&nbsp;
+              <h5>Brandbook & Mobile Website <em>Synaptech @ UW</em>&nbsp;&nbsp;&nbsp;
                 <a rel="noreferrer" target="_blank" href="https://github.com/synaptech-uw/uwsynaptech-website"><FontAwesomeIcon icon={faGithubSquare} style={{color: "white", height: "21.8px"}}/></a>
               </h5>
               <p className='pb-4 p'>Published in 2022</p>
@@ -67,7 +67,7 @@ export default function Portfolio(props) {
               /></a>
             </div>
             <Carousel.Caption>
-              <h5><em>atlas.</em> Website Landing Page</h5>
+              <h5>Start-Up Competition Contract Landing Page <em>atlas.</em></h5>
               <p className='pb-4 p'>Service in 2023</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
@@ -81,7 +81,7 @@ export default function Portfolio(props) {
               /></a>
             </div>
             <Carousel.Caption>
-              <h5><em>OurFamily</em> Archive Application Prototype &nbsp;&nbsp;&nbsp;
+              <h5><em>OurFamily</em> Archive Data Application &nbsp;&nbsp;&nbsp;
               <a rel="noreferrer" target="_blank" href="https://github.com/info340b-wi23/project-efra-tech"><FontAwesomeIcon icon={faGithubSquare} style={{color: "white", height: "21.8px"}}/></a>
               </h5>
               <p className='pb-4 p'>Published in 2023</p>
@@ -97,7 +97,7 @@ export default function Portfolio(props) {
               /></a>
             </div>
             <Carousel.Caption>
-              <h5><em>Electric Vehicles in WA</em> Interactive Data Analysis & Website&nbsp;&nbsp;&nbsp;
+              <h5><em>Electric Vehicles in WA</em> Web Hosted Interactive Data Analysis&nbsp;&nbsp;&nbsp;
               <a rel="noreferrer" target="_blank" href="https://github.com/info-201a-sp22/final-project-safjam?tab=readme-ov-file"><FontAwesomeIcon icon={faGithubSquare} style={{color: "white", height: "21.8px"}}/></a></h5>
               <p className='pb-4 p'>Published in 2022</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
@@ -112,7 +112,7 @@ export default function Portfolio(props) {
               /></a>
             </div>
             <Carousel.Caption>
-              <h5><em>YouFeed</em> Website & Mobile Design</h5>
+              <h5><em>YouFeed</em> Digital Platform Start-Up & Mobile Design</h5>
               <p className='pb-4 p'>Service in 2023</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
@@ -126,7 +126,7 @@ export default function Portfolio(props) {
               /></a>
             </div>
             <Carousel.Caption>
-              <h5 style={{marginBottom: '0px'}}>UX/UI Grocery Cart Tablet Design for <em>Veeve, Inc.</em></h5>
+              <h5 style={{marginBottom: '0px'}}>Commercial Interface Design <em>Veeve, Inc.</em></h5>
               <p style={{marginBottom: '0px'}} className='pb-4 p'>Service in 2023</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
@@ -140,7 +140,7 @@ export default function Portfolio(props) {
               /></a>
             </div>
             <Carousel.Caption>
-              <h5><em>MexiKhana</em> Food Cart Digital Design</h5>
+              <h5><em>MexiKhana</em> Stealth Digital Design & Consulting</h5>
               <p className='pb-4 p'>Service in 2023 & 2024</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
