@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
-import Efra from '../imgs/ph3.png';
+import Efra from '../imgs/professionalHeadshot.jpg';
 
 export default function Bio(props) {
   return (
@@ -11,19 +11,19 @@ export default function Bio(props) {
       <div style={{backgroundColor: 'lightgray', marginTop: '1%', height: '0.05rem', marginLeft: '10%', boxShadow: '0px 1px 6px lightgray'}}></div>
 
       <div className='resume-backback p-2' style={{color:'white', marginTop: '-1.5%', height: '87.9%', width: '43%', borderTop: 'none', backgroundColor: '#11041e', marginRight: '19.0%', opacity: '1.5'}}>
-        <img src={Efra} alt='my self portrait' style={{width: '31%', marginTop: '2.4%', borderRadius: '3rem', objectFit: 'cover', objectPosition: '-4%'}} />
+        <img src={Efra} alt='my self portrait' style={{width: '33.9%', marginTop: '2.4%', borderRadius: '3rem', objectFit: 'cover', objectPosition: '-4%', border: '2px solid darkgreen', transform: 'skewY(2.4deg)'}} />
         <h2>Hi, I'm Efra Ahsan.</h2>
         <div className='mx-4'>
           <h5>
-            I love developing business and ideas.
+            I like developing apps and ideas.
           </h5>
           <div className='biobox pt-3' style={{textAlign: 'left'}}>
-            <p>Hi there. I am a recent graduate from the iSchool at University of Washington. I have a passion for shaping the intersection between technology and frontiers. For quick reference, check out my <a className='bio-p1-a' style={{fontWeight: '900'}} href='/resume'>resume</a> and <a className='bio-p1-a' style={{fontWeight: '900'}} href='/portfolio'>portfolio</a>.</p>
+            <p>I am a recent graduate from University of Washington Information School. I have a passion for shaping the product value intersections between technology and frontiers. For quick reference, check out my <a className='bio-p1-a' style={{fontWeight: '900'}} href='/resume'>resume</a> and <a className='bio-p1-a' style={{fontWeight: '900'}} href='/portfolio'>portfolio</a>.</p>
             <p>A bit about me:</p>
-            <p>My university education was rooted into the product and application sciences. On campus, my interest quickly captured into extracirrcular activities where I worked with a range of cool technologies, from a graphic design tools to brain-computer interface. Here I found my extracirrcicular involvement in the neurotechnology club, an underground hub for technology, where it was that I learned extensively about hard mechanics of technology, position of data programming and machine learning, teamwork; and a clicked inspiration to research a cool subject, <a rel="noreferrer" href='https://www.linkedin.com/posts/efra-ahsan-4b49a0228_hacking-consciousness-mindfulness-meditation-activity-7138436623712600064-NQeI/?utm_source=share&utm_medium=member_desktop' target='_blank'>the neuroscience of consciousness hacking</a>, a fun article.</p>
-            <p>Beginning my second year of university, I but failed my first website development course. To push myself to exceed, I spearheaded this challenge. Using the tech hub, I took on concepts to lead the siteware development, to co-launch an original design, <a href='https://synaptechuw.org/' target='_blank' rel='noreferrer'>www.synaptechuw.org</a>. A success, but enough. To learn more about programs, I strove countless hours leading website engineering princpals to showcase my senior capstone project - and actually drove my team to recieve the 2023 Annual Capstone Research Award from University of Washington, for the cross-platform open-sourcing project. I have since then worked on an enumberous number of websites and app projects that are highlighted just in my <a className='bio-p1-a' style={{fontWeight: '900'}} href='/portfolio'>portfolio</a>.</p>
-            <p>I am seeking an opportunity to bring my work to full-time, where I can apply an expertise of digital productale and programs. I aspire to work for a company that pushes me to learn more, and where it is that I can bring pursuit of my ambitions and mindset for growth.</p>
-            <p>With that, welcome to my first website, and if you would like to chat over any opportunities or shared interests, let's connect. </p>
+            <p>My university education was rooted into the product and application sciences. As a sophomore, my interest quickly captured into software & hardware extracirrcular activities where I worked with a range of cool technologies, from a graphic design tools to even a stimulatory brain-computer interface. Additionally I led efforts in social organizations like The Citizens Foundation-USA and the Pakistani Students Association where the success of coordination fundraised for charities and networked communities.</p>
+            <p>Pursued a bachelor's program within the iSchool, Informatics, taught me handedly the interdisciplinary tools to exceed in IT business and production. From failing my first web development course to principaling site code by my capstone, and learning IT method from concepts based in statistics and user-centered design, I was able to begin working as a private contractor to digital productions upon my graduation early as a 21 year old. I continued to learn from experience skills in market and data niche, UX/UI design, business marketing, product lifecycles, and trade.</p>
+            <p>Today I am seeking an opportunity to bring my work to full-time. I aspire to work for a company that pushes me to learn more, and fuel an ambition to frontier value centered design for a futuristic world.</p>
+            <p>Welcome to my first website, and if you would like to chat over any opportunities or shared interests, I would love to connect. </p>
           </div>
           <p style={{fontSize: '0.9rem', color: 'lightgray', paddingTop: '3%'}}>all icons on this website are from <a href='https://fontawesome.com/' target='_blank' rel='noreferrer' style={{fontWeight: '800', color: 'lightgray'}}>FontAwesome</a></p>
         </div>

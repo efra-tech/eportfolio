@@ -18,22 +18,29 @@ export default function SummaryDiv(props) {
         <div style={{borderLeft: '1.3px solid white', paddingLeft: '9px', marginTop: '3%', marginLeft: '2%'}}>
           <p className='pt-4'><em style={{fontWeight: '900', textShadow: '1px 1px 1px black', fontSize: '1.5rem', fontStyle: 'normal'}}>Polling and Open Data Initiative @ UW</em> - Data Analyst Initiate</p>
             <p style={{marginTop: '-1.5%', fontSize: '1.4rem', color: 'lightgray'}}>Dec 2022</p>
-            <p style={{fontSize: '1.4rem', marginTop: '-1%'}}>Wrote an exploratory data analysis of crisis contact trends observed about Seattle's UDistrict to broaden understanding of police data for a public safety project.</p>
+            <p style={{fontSize: '1.4rem', marginTop: '-1%'}}>Drafting of an exploratory data analysis of crisis contact trends observed about Seattle's UDistrict to broaden understanding of police data for a public safety project.</p>
         </div>
         <div style={{borderLeft: '1.3px solid white', paddingLeft: '9px', marginLeft: '2%', backgroundColor: 'rgba(255, 255, 255, 0.05)', paddingBottom: '1%', marginBottom: '1%'}}>
           <p className='pt-4'><em style={{fontWeight: '900', textShadow: '1px 1px 1px black', fontSize: '1.5rem', fontStyle: 'normal'}}>Neuroscience Undergraduate Reading Program</em> - Educational Presenter</p>
             <p style={{marginTop: '-1.5%', fontSize: '1.4rem', color: 'lightgray'}}>Sept 2022 - Dec 2022</p>
-            <p style={{fontSize: '1.4rem', marginTop: '-1%'}}>Presented a fun overview of literature studying the human-computer interaction with voice-user interface.</p>
+            <p style={{fontSize: '1.4rem', marginTop: '-1%'}}>Presented a fun overview of literature surveying the human-computer interaction with voice-user interface.</p>
         </div>
         <div style={{borderLeft: '1.3px solid white', paddingLeft: '9px', marginLeft: '2%'}}>
           <p className='pt-4'><em style={{fontWeight: '900', textShadow: '1px 1px 1px black', fontSize: '1.5rem', fontStyle: 'normal'}}>The Citizens Foundation-USA UW Chapter</em> - Events Coordinator</p>
             <p style={{marginTop: '-1.5%', fontSize: '1.4rem', color: 'lightgray'}}>March 2022 - Dec 2022</p>
-            <p style={{fontSize: '1.4rem', marginTop: '-1%'}}>Coordinated successful on-campus fundraising events and professional banquets for a non-profit organization which provides education to underprivileged children and women in Pakistan.</p>
+            <p style={{fontSize: '1.4rem', marginTop: '-1%'}}>Spearheaded fundraising campaigns from ideation to execution raising $13K for underprivileged children education in Pakistan.</p>
         </div>
         <div style={{borderLeft: '1.3px solid white', paddingLeft: '9px', marginLeft: '2%', backgroundColor: 'rgba(255, 255, 255, 0.05)', paddingBottom: '1%', marginBottom: '1%'}}>
           <p className='pt-4'><em style={{fontWeight: '900', textShadow: '1px 1px 1px black', fontSize: '1.5rem', fontStyle: 'normal'}}>Pakistani Students Association</em> - Social Media & Design Coordinator</p>
             <p style={{marginTop: '-1.5%', fontSize: '1.4rem', color: 'lightgray'}}>Sept 2021 - June 2022</p>
-            <p style={{fontSize: '1.4rem', marginTop: '-1%'}}>Designed and posted Instagram infographics, managed overall social media, and maintained positive relations with related on-campus organizations and sponsorships.</p>
+            <p style={{fontSize: '1.4rem', marginTop: '-1%'}}>Design and posting of Instagram infographics, overall social media management, and maintainence of positive relations with affiliated on-campus organizations and sponsorships.</p>
+        </div>
+        <div style={{borderLeft: '1.3px solid white', paddingLeft: '9px', marginLeft: '2%', backgroundColor: 'rgba(255, 255, 255, 0.05)', paddingBottom: '1%', marginBottom: '1%'}}>
+          <p className='pt-4'><em style={{fontWeight: '900', textShadow: '1px 1px 1px black', fontSize: '1.5rem', fontStyle: 'normal'}}>Synaptech @ UW</em> - Programming, Design Lead, Website Team Lead</p>
+            <p style={{marginTop: '-1.5%', fontSize: '1.4rem', color: 'lightgray'}}>Sept 2021 - June 2023</p>
+            <p style={{fontSize: '1.4rem', marginTop: '-1%'}}><em style={{marginTop: '-1.5%', fontSize: '1rem', color: 'lightgray'}}>Sept 2022 - June 2023<a className='p-2'></a></em>Website Project: Development of React.JS siteware and brandbook to commercialize student on-campus Software & Hardware club.</p>
+            <p style={{fontSize: '1.4rem', marginTop: '-1%'}}><em style={{marginTop: '-1.5%', fontSize: '1rem', color: 'lightgray'}}>Mar 2022 - Sept 2022<a className='p-2'></a></em>Website Project: High-fidelity prototyping to create feasible, accessible, and cohesive definition of organization brand.</p>
+            <p style={{fontSize: '1.4rem', marginTop: '-1%'}}><em style={{marginTop: '-1.5%', fontSize: '1rem', color: 'lightgray'}}>Sept 2021 - Feb 2022<a className='p-2'></a></em>SmartMusic Project: A classification model to interpret user enjoyment of a music segment, given continuous user brainwave data collected via EEG headband.</p>
         </div>
       </div>
 
