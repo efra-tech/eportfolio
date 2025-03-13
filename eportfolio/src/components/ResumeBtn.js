@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from './EAHSAN_RESUME_SWE.pdf';
+import resume from './EAHSAN_RESUME_2024_developer (1).pdf';
 
 
 export function ResumeBtn(props){

@@ -26,7 +26,7 @@ export default function Navbar(props) {
   }
   if(brandShow === true) {
     brandProp = activeColor;
-    navWidth = '20%';
+    navWidth = '40.1%';
     ani = "shake 0.9s"
     smallIconShow = 'show';
   } else {

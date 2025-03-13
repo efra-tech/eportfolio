@@ -11,11 +11,11 @@ export default function Bio(props) {
       <div style={{backgroundColor: 'lightgray', marginTop: '1%', height: '0.05rem', marginLeft: '10%', boxShadow: '0px 1px 6px lightgray'}}></div>
 
       <div className='resume-backback p-2' style={{color:'white', marginTop: '-1.5%', height: '87.9%', width: '43%', borderTop: 'none', backgroundColor: '#11041e', marginRight: '19.0%', opacity: '1.5'}}>
-        <img src={Efra} alt='my self portrait' style={{width: '33.9%', marginTop: '2.4%', borderRadius: '3rem', objectFit: 'cover', objectPosition: '-4%', border: '2px solid darkgreen', transform: 'skewY(2.4deg)'}} />
-        <h2>Hi, I'm Efra Ahsan.</h2>
+          <img src={Efra} alt='my self portrait' style={{width: '33.9%', marginTop: '2.4%', borderRadius: '', objectFit: 'cover', objectPosition: '-4%', borderTop: '2px solid darkgreen'}} />
+        <h2>My name is Efra Ahsan.</h2>
         <div className='mx-4'>
           <h5>
-            I like developing apps and ideas.
+            I like developing platforms and ideas.
           </h5>
           <div className='biobox pt-3' style={{textAlign: 'left'}}>
             <p>I am a recent graduate from University of Washington Information School. I have a passion for shaping the product value intersections between technology and frontiers. For quick reference, check out my <a className='bio-p1-a' style={{fontWeight: '900'}} href='/resume'>resume</a> and <a className='bio-p1-a' style={{fontWeight: '900'}} href='/portfolio'>portfolio</a>.</p>
