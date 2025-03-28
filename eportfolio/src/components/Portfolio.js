@@ -35,10 +35,10 @@ export default function Portfolio(props) {
             </div>
             <Carousel.Caption>
               <h5>
-                <em>GardenSpace</em> Open-Source Data & Cross-Platform Website&nbsp;&nbsp;&nbsp;
+                <em>GardenSpace</em> Open-Source Data Cross-Platform Website&nbsp;&nbsp;&nbsp;
                 <a rel="noreferrer" target="_blank" href="https://github.com/efra-tech/icapstone"><FontAwesomeIcon icon={faGithubSquare} style={{color: "white", height: "21.8px"}}/></a>
                 </h5>
-              <p className='pb-4 p'>Published in 2023</p>
+              {/* <p className='pb-4 p'>Published in 2023</p> */}
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -54,7 +54,7 @@ export default function Portfolio(props) {
               <h5>Brandbook & Mobile Website <em>Synaptech @ UW</em>&nbsp;&nbsp;&nbsp;
                 <a rel="noreferrer" target="_blank" href="https://github.com/synaptech-uw/uwsynaptech-website"><FontAwesomeIcon icon={faGithubSquare} style={{color: "white", height: "21.8px"}}/></a>
               </h5>
-              <p className='pb-4 p'>Published in 2022</p>
+              {/* <p className='pb-4 p'>Published in 2022</p> */}
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -68,7 +68,7 @@ export default function Portfolio(props) {
             </div>
             <Carousel.Caption>
               <h5>Start-Up Competition Contract Landing Page <em>atlas.</em></h5>
-              <p className='pb-4 p'>Service in 2023</p>
+              {/* <p className='pb-4 p'>Service in 2023</p> */}
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -84,7 +84,7 @@ export default function Portfolio(props) {
               <h5><em>OurFamily</em> Archive Data Application &nbsp;&nbsp;&nbsp;
               <a rel="noreferrer" target="_blank" href="https://github.com/info340b-wi23/project-efra-tech"><FontAwesomeIcon icon={faGithubSquare} style={{color: "white", height: "21.8px"}}/></a>
               </h5>
-              <p className='pb-4 p'>Published in 2023</p>
+              {/* <p className='pb-4 p'>Published in 2023</p> */}
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -99,7 +99,7 @@ export default function Portfolio(props) {
             <Carousel.Caption>
               <h5><em>Electric Vehicles in WA</em> Web Hosted Interactive Data Analysis&nbsp;&nbsp;&nbsp;
               <a rel="noreferrer" target="_blank" href="https://github.com/info-201a-sp22/final-project-safjam?tab=readme-ov-file"><FontAwesomeIcon icon={faGithubSquare} style={{color: "white", height: "21.8px"}}/></a></h5>
-              <p className='pb-4 p'>Published in 2022</p>
+              {/* <p className='pb-4 p'>Published in 2022</p> */}
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -113,7 +113,7 @@ export default function Portfolio(props) {
             </div>
             <Carousel.Caption>
               <h5><em>YouFeed</em> Digital Platform Start-Up & Mobile Design</h5>
-              <p className='pb-4 p'>Service in 2023</p>
+              {/* <p className='pb-4 p'>Service in 2023</p> */}
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -127,7 +127,7 @@ export default function Portfolio(props) {
             </div>
             <Carousel.Caption>
               <h5 style={{marginBottom: '0px'}}>Commercial Interface Design <em>Veeve, Inc.</em></h5>
-              <p style={{marginBottom: '0px'}} className='pb-4 p'>Service in 2023</p>
+              {/* <p style={{marginBottom: '0px'}} className='pb-4 p'>Service in 2023</p> */}
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -141,7 +141,7 @@ export default function Portfolio(props) {
             </div>
             <Carousel.Caption>
               <h5><em>MexiKhana</em> Stealth Digital Design & Consulting</h5>
-              <p className='pb-4 p'>Service in 2023 & 2024</p>
+              {/* <p className='pb-4 p'>Service in 2023 & 2024</p> */}
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -155,7 +155,7 @@ export default function Portfolio(props) {
             </div>
             <Carousel.Caption>
               <h5><em>Habitat</em> Mobile Design Prototype</h5>
-              <p className='pb-4 p'>UW Women in Informatics Annual Hackathon 2022</p>
+              {/* <p className='pb-4 p'>UW Women in Informatics Annual Hackathon 2022</p> */}
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -169,7 +169,7 @@ export default function Portfolio(props) {
             </div>
             <Carousel.Caption>
               <h5>IT & Business Consulting for <em>Dirt Masters, Inc.</em> </h5>
-              <p className='pb-4 p'>Service in 2023</p>
+              {/* <p className='pb-4 p'>Service in 2023</p> */}
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
           </Carousel.Item>

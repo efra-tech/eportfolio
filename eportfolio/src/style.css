@@ -33,7 +33,7 @@ html > * {
   border-radius: none;
   text-decoration: none;
   border-top: 26px solid black;
-  border-right: 6.72px solid rgb(7, 7, 7);
+  border-right: 20.72px solid rgb(7, 7, 7);
 }
 
 .nav-name {
@@ -152,6 +152,7 @@ h5 a:hover {
   padding: 2rem;
   padding-top: 22rem;
   padding-right: 2rem;
+  margin-top: -30rem;
 }
 
 .carousel-control-prev, .carousel-control-next {
@@ -182,7 +183,7 @@ h5 a:hover {
   opacity: 0.44;
 }
 
-.carousel-indicators > button {
+/* .carousel-indicators > button {
   padding: 1rem !important;
   margin-top: 4% !important;
 }
@@ -193,7 +194,7 @@ h5 a:hover {
 
 .carousel-indicators > button:nth-child(9) {
   margin-right: 13% !important;
-}
+} */
 
 /* .pink-bar {
   background-color: pink;
