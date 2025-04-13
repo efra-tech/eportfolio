@@ -14,6 +14,7 @@ import carousel8 from '../imgs/dirtmasters.png';
 import carousel9 from '../imgs/shinyapp.png';
 import carouselX from '../imgs/winfo.png'
 import carouselY from '../imgs/LLC.png';
+import carouselA from '../imgs/nodejs.png';
 
 
 
@@ -21,9 +22,9 @@ export default function Portfolio(props) {
   return (
     <div>
       <div style={{backgroundColor: 'lightgray', marginTop: '4.15%', height: '0.2rem', marginLeft: '-19%', boxShadow: '0px 1px 8px white'}}></div>
-      <div style={{position: 'absolute', borderRight: '420px solid black', height: '714px', width: '80%', backgroundColor: 'pink', borderLeft: '420px solid #11041e', opacity: '0.23'}}></div>
+      <div style={{position: 'absolute', borderRight: '420px solid black', height: '714px', width: '100%', backgroundColor: 'pink', borderLeft: '420px solid #11041e', opacity: '0.23'}}></div>
 
-      <div style={{position: 'static', width: '990px', marginTop: '2%', marginLeft: '6.4%', boxShadow: '28px 23px 22px rgba(255, 192, 203, 0.2085)'}}>
+      <div className='carousal-parent' style={{position: 'static', width: '990px', marginTop: '2%', marginLeft: '19.4%', boxShadow: '28px 79px 220px rgba(255, 192, 203, 0.2085)'}}>
         <Carousel style={{backgroundColor: 'black', border: '8px solid black', borderRadius: '3rem', borderTop: '13px solid black'}}>
           <Carousel.Item style={{maxHeight: '650px'}}>
             <div style={{height: '650px'}}>
@@ -35,10 +36,10 @@ export default function Portfolio(props) {
             </div>
             <Carousel.Caption>
               <h5>
-                <em>GardenSpace</em> Open-Source Data Cross-Platform Website&nbsp;&nbsp;&nbsp;
+                <em>GardenSpace:</em>&nbsp;&nbsp;&nbsp;Open-Source Data and Website&nbsp;&nbsp;&nbsp;
                 <a rel="noreferrer" target="_blank" href="https://github.com/efra-tech/icapstone"><FontAwesomeIcon icon={faGithubSquare} style={{color: "white", height: "21.8px"}}/></a>
                 </h5>
-              {/* <p className='pb-4 p'>Published in 2023</p> */}
+              <p className='pb-4 p'>University of Washington Information School Senior Capstone Award 2023</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -51,10 +52,10 @@ export default function Portfolio(props) {
               /></a>
             </div>
             <Carousel.Caption>
-              <h5>Brandbook & Mobile Website <em>Synaptech @ UW</em>&nbsp;&nbsp;&nbsp;
+              <h5><em>Synaptech @ UW:</em>&nbsp;&nbsp;&nbsp;Open-Source Mobile Website&nbsp;&nbsp;&nbsp;
                 <a rel="noreferrer" target="_blank" href="https://github.com/synaptech-uw/uwsynaptech-website"><FontAwesomeIcon icon={faGithubSquare} style={{color: "white", height: "21.8px"}}/></a>
               </h5>
-              {/* <p className='pb-4 p'>Published in 2022</p> */}
+              <p className='pb-4 p'>University of Washington TLD Organization</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -67,39 +68,8 @@ export default function Portfolio(props) {
               /></a>
             </div>
             <Carousel.Caption>
-              <h5>Start-Up Competition Contract Landing Page <em>atlas.</em></h5>
-              {/* <p className='pb-4 p'>Service in 2023</p> */}
-              <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item style={{maxHeight: '650px'}}>
-            <div style={{height: '650px'}}>
-              <a href='https://family-app-7c595.web.app/' target='_blank' rel='noreferrer'><img style={{borderRadius: '2.6rem', borderBottomLeftRadius: '0', border: '2px solid white'}}
-                className="d-block w-100"
-                src={carousel4}
-                alt="Fourth slide"
-              /></a>
-            </div>
-            <Carousel.Caption>
-              <h5><em>OurFamily</em> Archive Data Application &nbsp;&nbsp;&nbsp;
-              <a rel="noreferrer" target="_blank" href="https://github.com/info340b-wi23/project-efra-tech"><FontAwesomeIcon icon={faGithubSquare} style={{color: "white", height: "21.8px"}}/></a>
-              </h5>
-              {/* <p className='pb-4 p'>Published in 2023</p> */}
-              <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item style={{maxHeight: '650px'}}>
-            <div style={{height: '650px'}}>
-              <a href='https://j9ivbt-lily-shen.shinyapps.io/final-project-safjam/' target='_blank' rel='noreferrer'><img style={{borderRadius: '2.6rem', borderBottomLeftRadius: '0', border: '2px solid white'}}
-                className="d-block w-100"
-                src={carousel9}
-                alt="Fifth slide"
-              /></a>
-            </div>
-            <Carousel.Caption>
-              <h5><em>Electric Vehicles in WA</em> Web Hosted Interactive Data Analysis&nbsp;&nbsp;&nbsp;
-              <a rel="noreferrer" target="_blank" href="https://github.com/info-201a-sp22/final-project-safjam?tab=readme-ov-file"><FontAwesomeIcon icon={faGithubSquare} style={{color: "white", height: "21.8px"}}/></a></h5>
-              {/* <p className='pb-4 p'>Published in 2022</p> */}
+              <h5><em>atlas:</em>&nbsp;&nbsp;&nbsp; Landing Page & Dempsey Start-up Competition</h5>
+              <p className='pb-4 p'>Top 37 Finalist Team 2023</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -112,8 +82,8 @@ export default function Portfolio(props) {
               /></a>
             </div>
             <Carousel.Caption>
-              <h5><em>YouFeed</em> Digital Platform Start-Up & Mobile Design</h5>
-              {/* <p className='pb-4 p'>Service in 2023</p> */}
+              <h5><em>YouFeed:</em>&nbsp;&nbsp;&nbsp;Landing Page & Mobiles</h5>
+              <p className='pb-4 p'>Independent Contractor For Total Commercial Launch</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -126,8 +96,8 @@ export default function Portfolio(props) {
               /></a>
             </div>
             <Carousel.Caption>
-              <h5 style={{marginBottom: '0px'}}>Commercial Interface Design <em>Veeve, Inc.</em></h5>
-              {/* <p style={{marginBottom: '0px'}} className='pb-4 p'>Service in 2023</p> */}
+              <h5 style={{marginBottom: '0px'}}><em>Veeve, Inc:</em>&nbsp;&nbsp;&nbsp;Smart Design for AI-Powered Grocery</h5>
+              <p className='pb-4 p'>Independent Contractor For Commercial Interface Design</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -140,8 +110,8 @@ export default function Portfolio(props) {
               /></a>
             </div>
             <Carousel.Caption>
-              <h5><em>MexiKhana</em> Stealth Digital Design & Consulting</h5>
-              {/* <p className='pb-4 p'>Service in 2023 & 2024</p> */}
+              <h5><em>MexiKhana LLC:</em>&nbsp;&nbsp;&nbsp; Landing Page & Graphic Design</h5>
+              <p className='pb-4 p'>Independent Contractor for Development & Design</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -154,8 +124,8 @@ export default function Portfolio(props) {
               /></a>
             </div>
             <Carousel.Caption>
-              <h5><em>Habitat</em> Mobile Design Prototype</h5>
-              {/* <p className='pb-4 p'>UW Women in Informatics Annual Hackathon 2022</p> */}
+              <h5><em>Habitat:</em>&nbsp;&nbsp;&nbsp; Mobile App Prototype</h5>
+              <p className='pb-4 p'>UW Women in Informatics 10th Annual Hackathon</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -168,8 +138,54 @@ export default function Portfolio(props) {
               /></a>
             </div>
             <Carousel.Caption>
-              <h5>IT & Business Consulting for <em>Dirt Masters, Inc.</em> </h5>
-              {/* <p className='pb-4 p'>Service in 2023</p> */}
+              <h5><em>Dirt Masters, Inc:</em>&nbsp;&nbsp;&nbsp;IT & Business Consulting </h5>
+              <p className='pb-4 p'>Non-Disclosed Mentorship with Hewlett-Packard Enterprise</p>
+              <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item style={{maxHeight: '650px'}}>
+            <div style={{height: '650px'}}>
+              <a href='https://family-app-7c595.web.app/' target='_blank' rel='noreferrer'><img style={{borderRadius: '2.6rem', borderBottomLeftRadius: '0', border: '2px solid white'}}
+                className="d-block w-100"
+                src={carousel4}
+                alt="Fourth slide"
+              /></a>
+            </div>
+            <Carousel.Caption>
+              <h5><em>OurFamily:</em>&nbsp;&nbsp;&nbsp; Cloud Archive Application &nbsp;&nbsp;&nbsp;
+              <a rel="noreferrer" target="_blank" href="https://github.com/info340b-wi23/project-efra-tech"><FontAwesomeIcon icon={faGithubSquare} style={{color: "white", height: "21.8px"}}/></a>
+              </h5>
+              <p className='pb-4 p'>Course Project for Server-Side Development</p>
+              <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item style={{maxHeight: '650px'}}>
+            <div style={{height: '650px'}}>
+              <a href='https://j9ivbt-lily-shen.shinyapps.io/final-project-safjam/' target='_blank' rel='noreferrer'><img style={{borderRadius: '2.6rem', borderBottomLeftRadius: '0', border: '2px solid white'}}
+                className="d-block w-100"
+                src={carousel9}
+                alt="Fifth slide"
+              /></a>
+            </div>
+            <Carousel.Caption>
+              <h5><em>Electric Vehicles in WA:</em>&nbsp;&nbsp;&nbsp;Interactive Data Analysis&nbsp;&nbsp;&nbsp;
+              <a rel="noreferrer" target="_blank" href="https://github.com/info-201a-sp22/final-project-safjam?tab=readme-ov-file"><FontAwesomeIcon icon={faGithubSquare} style={{color: "white", height: "21.8px"}}/></a></h5>
+              <p className='pb-4 p'>Course Project in R</p>
+              <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item style={{maxHeight: '650px'}}>
+            <div style={{height: '650px'}}>
+              <a href='https://github.com/Info-443-Spring-2023/project-2-NodeJS' target='_blank' rel='noreferrer'><img style={{borderRadius: '2.6rem', borderBottomLeftRadius: '0', border: '2px solid white'}}
+                className="d-block w-100"
+                src={carouselA}
+                alt="Last slide"
+              /></a>
+            </div>
+            <Carousel.Caption>
+              <h5><em>NodeJS:</em>&nbsp;&nbsp;&nbsp;Open-Source Software Guide&nbsp;&nbsp;&nbsp;
+              <a rel="noreferrer" target="_blank" href="https://github.com/Info-443-Spring-2023/project-2-NodeJS"><FontAwesomeIcon icon={faGithubSquare} style={{color: "white", height: "21.8px"}}/></a></h5>
+              <p className='pb-4 p'>Course Project for Software Architecture</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
           </Carousel.Item>

@@ -10,12 +10,12 @@ export default function SummaryDiv(props) {
     <div className='resume-backback rc pb-5 pt-0' style={{fontSize: '1.53rem', width: '100%', color: 'white', backgroundColor: 'black', borderRadius: '2%', marginTop: '-5.2%', height: '74.5vh', boxShadow: '0 4px 2px -2px darkgray'}}>
 
       <div className='staticTop'>
-        <h1 style={{fontSize: '24px', textShadow: '1px 1px white'}} className='p-2'>Volunteering, Achievements & Publications</h1>
+        <h1 style={{fontSize: '24px', textShadow: '1px 1px white'}} className='p-2'>Achievements & Publications</h1>
       </div>
 
       <div className='resume-back rc pb-2 pt-3 mt-1' style={{overflowY: 'scroll'}}>
-        <h1 style={{color:'white', textShadow: '1px 1px 1px black', fontWeight: '900', fontSize: '2rem', fontStyle: 'italic'}}>Volunteering & Achievements</h1>
-        <div style={{borderLeft: '1.3px solid white', paddingLeft: '9px', marginTop: '3%', marginLeft: '2%'}}>
+        <h1 style={{color:'white', textShadow: '1px 1px 1px black', fontWeight: '900', fontSize: '2rem', fontStyle: 'italic'}}>Achievements</h1>
+        <div style={{borderLeft: '1.3px solid white', paddingLeft: '9px', marginTop: '3%', marginLeft: '2%', backgroundColor: 'rgba(255, 255, 255, 0.05)'}}>
           <p className='pt-4'><em style={{fontWeight: '900', textShadow: '1px 1px 1px black', fontSize: '1.5rem', fontStyle: 'normal'}}>Polling and Open Data Initiative @ UW</em> - Data Analyst Initiate</p>
             <p style={{marginTop: '-1.5%', fontSize: '1.4rem', color: 'lightgray'}}>Dec 2022</p>
             <p style={{fontSize: '1.4rem', marginTop: '-1%'}}>Drafting of an exploratory data analysis of crisis contact trends observed about Seattle's UDistrict to broaden understanding of police data for a public safety project.</p>
@@ -47,7 +47,7 @@ export default function SummaryDiv(props) {
       <div className='resume-back rc pb-2 pt-3' style={{overflowY: 'scroll'}}>
         <h1 style={{color:'white', textShadow: '1px 1px 1px black', fontWeight: '900', fontSize: '2rem', fontStyle: 'italic'}}>Publications</h1>
 
-        <div className='resume-back rc pb-2 pt-5' style={{overflowY: 'scroll', backgroundColor: 'rgba(14, 5, 5, 0.883)'}}>
+        <div id='key' className='resume-back rc pb-2 pt-5' style={{overflowY: 'scroll', backgroundColor: 'rgba(14, 5, 5, 0.883)'}}>
           <a href='https://greymattersjournal.org/hacking-consciousness-mindfulness-meditation-ego-death-and-enlightenment-engineering/' rel="noreferrer" target='_blank'><div className='card'>
             <div className='d-flex'>
               <img className="card-img-top" src={img} style={{width: '213px'}} alt="Illustration from article: Free From Ego" />

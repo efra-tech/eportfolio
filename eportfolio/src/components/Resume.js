@@ -42,7 +42,7 @@ export default function Resume(props) {
         <div onClick={handleClickPaper} className='latButton' style={{backgroundColor: activeBtn === 0 ? '#AAB3C6' : '#4c76bd', borderRadius: '0.7rem', textAlign: 'center', marginRight: '1.4rem', width: '12.8rem', marginLeft: '76%', opacity: '70%'}}>
           <p className='pt-4 pb-2'>Resume</p>
         </div>
-        <div onClick={handleClickSummary} className='latButton' style={{backgroundColor: activeBtn === 1 ? '#AAB3C6' : '#4c76bd', borderRadius: '0.7rem', textAlign: 'center', marginRight: '1.4rem', width: '16.8rem', opacity: '70%'}}>
+        <div id='parent' onClick={handleClickSummary} className='latButton' style={{backgroundColor: activeBtn === 1 ? '#AAB3C6' : '#4c76bd', borderRadius: '0.7rem', textAlign: 'center', marginRight: '1.4rem', width: '16.8rem', opacity: '70%'}}>
           <p className='pt-4 pb-2'>Extracurriculars</p>
         </div>
       </div>

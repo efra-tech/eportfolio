@@ -116,6 +116,14 @@ html > * {
   font-weight: 900;
 }
 
+.hidden {
+  display: none;
+}
+
+.hidden:target {
+  display: block;
+}
+
 h5 {
   text-shadow: 4px 4px 4px rgba(235, 217, 220, 0.218);
   font-size: larger;
@@ -149,10 +157,10 @@ h5 a:hover {
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
   border: 4px solid white;
-  padding: 2rem;
-  padding-top: 22rem;
+  padding: 5.5rem;
+  padding-top: 34rem;
   padding-right: 2rem;
-  margin-top: -30rem;
+  margin-top: -20rem;
 }
 
 .carousel-control-prev, .carousel-control-next {
@@ -160,11 +168,11 @@ h5 a:hover {
 }
 
 .carousel-control-prev-icon {
-  margin-left: -211.7%;
+  margin-left: -277.7%;
 }
 
 .carousel-control-next-icon {
-  margin-left: 210.1%;
+  margin-left: 284.9%;
 }
 
 .biobox p {
@@ -183,61 +191,50 @@ h5 a:hover {
   opacity: 0.44;
 }
 
-/* .carousel-indicators > button {
-  padding: 1rem !important;
-  margin-top: 4% !important;
+/* Media Queries */
+@media screen and (max-width: 2560px) {
+  .carousal-parent {
+    margin-left: 6.4% !important;
+  }
+
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    border: 4px solid white;
+    padding: 2rem;
+    padding-top: 22rem;
+    padding-right: 2rem;
+    margin-top: -30rem;
+  }
+
+  .carousel-control-prev, .carousel-control-next {
+    width: 5%;
+  }
+
+  .carousel-control-prev-icon {
+    margin-left: -211.7%;
+  }
+
+  .carousel-control-next-icon {
+    margin-left: 210.1%;
+  }
+
 }
 
-.carousel-indicators > button:nth-child(6) {
-  margin-right: 13% !important;
+.masked-text {
+  color: transparent;
+  background-image: url('https://images.unsplash.com/photo-1732535725600-f805d8b33c9c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: 200%; /* Enlarged for smooth animation */
+  background-position: 0 50%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animate-background 5s infinite alternate linear;
 }
 
-.carousel-indicators > button:nth-child(9) {
-  margin-right: 13% !important;
-} */
-
-/* .pink-bar {
-  background-color: pink;
-  margin-top: 2.9%;
-  height: 0.1rem;
-  box-shadow: 0px 1px 6px white;
+@keyframes animate-background {
+  0% {
+      background-position: 0 50%;
+  }
+  100% {
+      background-position: 100% 50%;
+  }
 }
-
-.lightgray-bar {
-  background-color: lightgray;
-  margin-top: 1%;
-  height: 0.05rem;
-  box-shadow: 0px 1px 6px lightgray;
-}
-
-.portrait-img {
-  width: 45%;
-  margin-top: 2.4%;
-  border-radius: 2em;
-}
-
-.biobox {
-  text-align: left;
-}
-
-.icon-credit {
-  font-size: 0.9rem;
-  color: lightgray;
-  padding-top: 3%;
-}
-
-.pink-text {
-  color: pink;
-  font-weight: 800;
-  text-shadow: 0px 0.2px 0.6px pink;
-}
-
-.linkedin-icon {
-  color: #4c76bd;
-  height: 21.8px;
-}
-
-.email-text,
-.phone-text {
-  color: #4c76bd;
-} */
