@@ -11,9 +11,14 @@ export default function Bio(props) {
       <div style={{backgroundColor: 'lightgray', marginTop: '1%', height: '0.05rem', marginLeft: '10%', boxShadow: '0px 1px 6px lightgray'}}></div>
 
       <div className='resume-backback p-2' style={{color:'white', marginTop: '-1.5%', height: '87.9%', width: '43%', borderTop: 'none', backgroundColor: '#11041e', marginRight: '19.0%', opacity: '1.5'}}>
-          <h1 className='pt-3 masked-text'><i>Full-Stack Developer</i></h1>
+          <div style={{backgroundColor: 'pink', marginTop: '1%', height: '0.1rem', marginLeft: '21.5%', boxShadow: '0px 1px 6px white'}}></div>
+          <h1 className=' masked-text'><i>Full Stack Developer</i></h1>
+          <div style={{backgroundColor: 'lightgray', marginTop: '1%', height: '0.05rem', marginLeft: '10%', boxShadow: '0px 1px 6px lightgray'}}></div>
+          <div style={{backgroundColor: 'lightgray', marginTop: '1%', height: '0.05rem', marginLeft: '10%', boxShadow: '0px 1px 6px lightgray'}}></div>
+          <div style={{backgroundColor: 'lightgray', marginTop: '1%', height: '0.05rem', marginLeft: '10%', boxShadow: '0px 1px 6px lightgray'}}></div>
+          <div style={{backgroundColor: 'lightgray', marginTop: '1%', height: '0.05rem', marginLeft: '10%', boxShadow: '0px 1px 6px lightgray'}}></div>
           <img src={Efra} alt='my self portrait' style={{backgroundSize: 'cover', width: '70%', height: '', marginTop: '3.9em', marginBottom: '1em', boxShadow: '0px 0px 4px green', objectFit: 'cover', background: '#0a0213'}} />
-        <h2>My name is Efra Ahsan.</h2>
+        <h2>My name is Efra.</h2>
         <div className='mx-4'>
           <h5 style={{color:'green'}}>
             I like developing apps and ideas.
