@@ -15,6 +15,11 @@ export default function SummaryDiv(props) {
 
       <div className='resume-back rc pb-2 pt-3 mt-1' style={{overflowY: 'scroll'}}>
         <h1 style={{color:'white', textShadow: '1px 1px 1px black', fontWeight: '900', fontSize: '2rem', fontStyle: 'italic'}}>Achievements</h1>
+        <div style={{borderLeft: '1.3px solid white', paddingLeft: '9px', marginTop: '3%', marginLeft: '2%'}}>
+          <p className='pt-4'><em style={{fontWeight: '900', textShadow: '1px 1px 1px black', fontSize: '1.5rem', fontStyle: 'normal'}}>Scrimba Online</em> - Programming Certifications</p>
+            <p style={{marginTop: '-1.5%', fontSize: '1.4rem', color: 'lightgray'}}>Sept 2025</p>
+            <p style={{fontSize: '1.4rem', marginTop: '-1%'}}>Supercharged Mozilla MDN learning and creating online projects.</p>
+        </div>
         <div style={{borderLeft: '1.3px solid white', paddingLeft: '9px', marginTop: '3%', marginLeft: '2%', backgroundColor: 'rgba(255, 255, 255, 0.05)'}}>
           <p className='pt-4'><em style={{fontWeight: '900', textShadow: '1px 1px 1px black', fontSize: '1.5rem', fontStyle: 'normal'}}>Polling and Open Data Initiative @ UW</em> - Data Analyst Initiate</p>
             <p style={{marginTop: '-1.5%', fontSize: '1.4rem', color: 'lightgray'}}>Dec 2022</p>

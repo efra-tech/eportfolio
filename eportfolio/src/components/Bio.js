@@ -12,7 +12,7 @@ export default function Bio(props) {
 
       <div className='resume-backback p-2' style={{color:'white', marginTop: '-1.5%', height: '87.9%', width: '43%', borderTop: 'none', backgroundColor: '#11041e', marginRight: '19.0%', opacity: '1.5'}}>
           <h1 className='pt-3 masked-text'><i>Full-Stack Developer</i></h1>
-          <img src={Efra} alt='my self portrait' style={{backgroundSize: 'cover', width: '70%', height: '', marginTop: '', borderRadius: '1em', objectFit: 'cover', background: '#0a0213'}} />
+          <img src={Efra} alt='my self portrait' style={{backgroundSize: 'cover', width: '70%', height: '', marginTop: '3.9em', marginBottom: '1em', boxShadow: '0px 0px 4px green', objectFit: 'cover', background: '#0a0213'}} />
         <h2>My name is Efra Ahsan.</h2>
         <div className='mx-4'>
           <h5 style={{color:'green'}}>
