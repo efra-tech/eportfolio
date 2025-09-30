@@ -11,17 +11,19 @@ export default function Bio(props) {
       <div style={{backgroundColor: 'lightgray', marginTop: '1%', height: '0.05rem', marginLeft: '10%', boxShadow: '0px 1px 6px lightgray'}}></div>
 
       <div className='resume-backback p-2' style={{color:'white', marginTop: '-1.5%', height: '87.9%', width: '43%', borderTop: 'none', backgroundColor: '#11041e', marginRight: '19.0%', opacity: '1.5'}}>
-          <div style={{backgroundColor: 'pink', marginTop: '1%', height: '0.1rem', marginLeft: '21.5%', boxShadow: '0px 1px 6px white'}}></div>
+          <div style={{backgroundColor: 'pink', marginTop: '1%', height: '0.1rem', marginLeft: '', boxShadow: '0px 1px 6px white'}}></div>
           <h1 className=' masked-text'><i>Full Stack Developer</i></h1>
           <div style={{backgroundColor: 'lightgray', marginTop: '1%', height: '0.05rem', marginLeft: '10%', boxShadow: '0px 1px 6px lightgray'}}></div>
           <div style={{backgroundColor: 'lightgray', marginTop: '1%', height: '0.05rem', marginLeft: '10%', boxShadow: '0px 1px 6px lightgray'}}></div>
           <div style={{backgroundColor: 'lightgray', marginTop: '1%', height: '0.05rem', marginLeft: '10%', boxShadow: '0px 1px 6px lightgray'}}></div>
+          {/* <div style={{backgroundColor: 'lightgray', marginTop: '1%', height: '0.05rem', marginLeft: '10%', boxShadow: '0px 1px 6px lightgray'}}></div>
           <div style={{backgroundColor: 'lightgray', marginTop: '1%', height: '0.05rem', marginLeft: '10%', boxShadow: '0px 1px 6px lightgray'}}></div>
-          <img src={Efra} alt='my self portrait' style={{backgroundSize: 'cover', width: '70%', height: '', marginTop: '3.9em', marginBottom: '1em', boxShadow: '0px 0px 4px green', objectFit: 'cover', background: '#0a0213'}} />
-        <h2>My name is Efra.</h2>
+          <div style={{backgroundColor: 'lightgray', marginTop: '1%', height: '0.05rem', marginLeft: '10%', boxShadow: '0px 1px 6px lightgray'}}></div> */}
+          {/* <img src={Efra} alt='my self portrait' style={{backgroundSize: 'cover', width: '70%', height: '', marginTop: '3.9em', marginBottom: '1em', boxShadow: '0px 0px 4px green', objectFit: 'cover', background: '#0a0213'}} /> */}
+        <h2 className='pt-0' style={{fontFamily: "serif"}}>My name is Efra Ahsan</h2>
         <div className='mx-4'>
-          <h5 style={{color:'green'}}>
-            I like developing apps and ideas.
+          <h5 style={{color:'green', fontSize: '2.6rem', color:"lightgray"}}>
+            I like developing apps and ideas
           </h5>
           <div className='biobox pt-3' style={{textAlign: 'left'}}>
             <p>I am a recent graduate from the University of Washington’s Information School, where I earned a B.S. in Informatics. I specialize in frontend web development with a strong interest in the intersections between technology, design, and the human experience. You can explore my my <a className='bio-p1-a' style={{fontWeight: '900'}} href='/resume'>resume</a> and <a className='bio-p1-a' style={{fontWeight: '900'}} href='/portfolio'>portfolio</a> for a closer look at my work.</p>
@@ -55,7 +57,7 @@ export default function Bio(props) {
 
       <footer style={{marginBottom: '-1%', backgroundColor: 'black', opacity: '0.76', paddingTop: '4px', paddingBottom: '4px', borderRight: '17.72px solid rgb(7, 7, 7)'}}>
           <div className='d-flex justify-content-center pt-4 footerPar'>
-            <p className='mx-5 pr-5' style={{paddingLeft: '15.7%', color: 'pink', fontWeight: '800', textShadow: '0px 0.2px 0.6px white'}}>Connect Us</p>
+            <p className='mx-5 pr-5' style={{paddingLeft: '15.7%', color: 'pink', fontWeight: '800', textShadow: '0px 0.2px 0.6px white'}}>Connect With Me</p>
             <a className='mx-5' rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/efra-ahsan-4b49a0228/"><FontAwesomeIcon icon={faLinkedin} style={{color: '#4c76bd', height: "21.8px"}}/></a>
             <a href="mailto:efra.ahsan23@gmail.com?body=Efra says, hello. You may delete this message now."><p className='mx-5' style={{color: '#4c76bd'}}>efra.ahsan23@gmail.com</p></a>
             <a href="tel:+13609499164"><p className='mx-5' style={{color: '#4c76bd'}}>+1 (360) 949-9164</p></a>
