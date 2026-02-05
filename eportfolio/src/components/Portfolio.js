@@ -37,10 +37,10 @@ export default function Portfolio(props) {
             </div>
             <Carousel.Caption>
               <h5>
-                <em>GardenSpace:</em>&nbsp;&nbsp;&nbsp;Open-Source Data and Website&nbsp;&nbsp;&nbsp;
+                <em>GardenSpace:</em>&nbsp;&nbsp;&nbsp;Global Open-Source Data and Software&nbsp;&nbsp;&nbsp;
                 <a rel="noreferrer" target="_blank" href="https://github.com/efra-tech/icapstone"><FontAwesomeIcon icon={faGithubSquare} style={{color: "white", height: "21.8px"}}/></a>
                 </h5>
-              <p className='pb-4 p'>University of Washington Information School Senior Capstone Award 2023</p>
+              <p className='pb-4 p'>The Information School at University of Washington</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -53,10 +53,10 @@ export default function Portfolio(props) {
               /></a>
             </div>
             <Carousel.Caption>
-              <h5><em>Synaptech @ UW:</em>&nbsp;&nbsp;&nbsp;Open-Source Mobile Website&nbsp;&nbsp;&nbsp;
+              <h5><em>Synaptech @ UW:</em>&nbsp;&nbsp;&nbsp;Global Open-Source Project&nbsp;&nbsp;&nbsp;
                 <a rel="noreferrer" target="_blank" href="https://github.com/synaptech-uw/uwsynaptech-website"><FontAwesomeIcon icon={faGithubSquare} style={{color: "white", height: "21.8px"}}/></a>
               </h5>
-              <p className='pb-4 p'>University of Washington TLD Organization</p>
+              <p className='pb-4 p'>University of Washington Organization</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -69,8 +69,8 @@ export default function Portfolio(props) {
               /></a>
             </div>
             <Carousel.Caption>
-              <h5><em>atlas:</em>&nbsp;&nbsp;&nbsp; Landing Page & Dempsey Start-up Competition</h5>
-              <p className='pb-4 p'>Top 37 University Finalist Team</p>
+              <h5><em>atlas:</em>&nbsp;&nbsp;&nbsp; Landing Page & Early Start-up</h5>
+              <p className='pb-4 p'>Annual Dempsey Start-Up Competition</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -83,8 +83,8 @@ export default function Portfolio(props) {
               /></a>
             </div>
             <Carousel.Caption>
-              <h5><em>YouFeed:</em>&nbsp;&nbsp;&nbsp;Landing Page & Mobiles</h5>
-              <p className='pb-4 p'>Launch commerical platform</p>
+              <h5><em>YouFeed:</em>&nbsp;&nbsp;&nbsp;Landing Page & Mobile Mockups</h5>
+              <p className='pb-4 p'>E2E Commercial Launch</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -98,7 +98,7 @@ export default function Portfolio(props) {
             </div>
             <Carousel.Caption>
               <h5 style={{marginBottom: '0px'}}><em>Veeve, Inc:</em>&nbsp;&nbsp;&nbsp;Smart Design for AI-Powered Grocery</h5>
-              <p className='pb-4 p'>Design Commercial Interface </p>
+              <p className='pb-4 p'>E2E Commercial Interface Design</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -113,7 +113,7 @@ export default function Portfolio(props) {
             <Carousel.Caption>
               <h5><em>Interactive JavaScript:</em>&nbsp;&nbsp;&nbsp;Generate A Password&nbsp;&nbsp;&nbsp;
               </h5>
-              <p className='pb-4 p'>Certification Course</p>
+              <p className='pb-4 p'>Interactivity Fundamentals</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -127,7 +127,7 @@ export default function Portfolio(props) {
             </div>
             <Carousel.Caption>
               <h5><em>MexiKhana LLC:</em>&nbsp;&nbsp;&nbsp; Landing Page & Graphic Design</h5>
-              <p className='pb-4 p'>Construct Development & Design Project</p>
+              <p className='pb-4 p'>E2E Development & Design</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -155,7 +155,7 @@ export default function Portfolio(props) {
             </div>
             <Carousel.Caption>
               <h5><em>Dirt Masters, Inc:</em>&nbsp;&nbsp;&nbsp;IT & Business Consulting </h5>
-              <p className='pb-4 p'>Non-Disclosed Mentorship Hewlett-Packard Enterprise</p>
+              <p className='pb-4 p'>Software Integrity</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -171,7 +171,7 @@ export default function Portfolio(props) {
               <h5><em>OurFamily:</em>&nbsp;&nbsp;&nbsp; Cloud Archive Application &nbsp;&nbsp;&nbsp;
               <a rel="noreferrer" target="_blank" href="https://github.com/info340b-wi23/project-efra-tech"><FontAwesomeIcon icon={faGithubSquare} style={{color: "white", height: "21.8px"}}/></a>
               </h5>
-              <p className='pb-4 p'>Course Server-Side Development Project</p>
+              <p className='pb-4 p'>Server-Side Development/SSR</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -186,7 +186,7 @@ export default function Portfolio(props) {
             <Carousel.Caption>
               <h5><em>Electric Vehicles in WA:</em>&nbsp;&nbsp;&nbsp;Interactive Data Analysis&nbsp;&nbsp;&nbsp;
               <a rel="noreferrer" target="_blank" href="https://github.com/info-201a-sp22/final-project-safjam?tab=readme-ov-file"><FontAwesomeIcon icon={faGithubSquare} style={{color: "white", height: "21.8px"}}/></a></h5>
-              <p className='pb-4 p'>Course R Project</p>
+              <p className='pb-4 p'>Development and Deployment</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -201,7 +201,7 @@ export default function Portfolio(props) {
             <Carousel.Caption>
               <h5><em>NodeJS:</em>&nbsp;&nbsp;&nbsp;Open-Source Software Guide&nbsp;&nbsp;&nbsp;
               <a rel="noreferrer" target="_blank" href="https://github.com/Info-443-Spring-2023/project-2-NodeJS"><FontAwesomeIcon icon={faGithubSquare} style={{color: "white", height: "21.8px"}}/></a></h5>
-              <p className='pb-4 p'>Course Software Architecture Project</p>
+              <p className='pb-4 p'>Software Architecture Project</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
           </Carousel.Item>
