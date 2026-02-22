@@ -43,7 +43,7 @@ export default function Resume(props) {
           <p className='pt-4 pb-2'>Resume</p>
         </div>
         <div id='parent' onClick={handleClickSummary} className='latButton' style={{backgroundColor: activeBtn === 1 ? '#AAB3C6' : '#4c76bd', borderRadius: '0.7rem', textAlign: 'center', marginRight: '1.4rem', width: '16.8rem', opacity: '70%'}}>
-          <p className='pt-4 pb-2'>Extras & Publications</p>
+          <p className='pt-4 pb-2'>Publications</p>
         </div>
       </div>
 
