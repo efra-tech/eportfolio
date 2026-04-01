@@ -20,6 +20,8 @@ import carouselN from '../imgs/precious-pixie.png';
 import carouselAB from '../imgs/ixana.png';
 import carouselBB from '../imgs/shades.png';
 import carouselCB from '../imgs/RolandHair.png';
+import carouselDB from '../imgs/langpal.png';
+
 
 
 
@@ -103,6 +105,22 @@ export default function Portfolio(props) {
             <Carousel.Caption>
               <h5><em>YouFeed.IO:</em>&nbsp;&nbsp;&nbsp;Early Stage Mobile App - Custom Design & Development</h5>
               <p className='pb-4 p'>Austin, Texas</p>
+              <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item style={{maxHeight: '650px'}}>
+            <div style={{height: '650px'}}>
+              <a href='https://www.lang-pal.com/' target='_blank' rel='noreferrer'><img style={{borderRadius: '2.6rem', borderBottomLeftRadius: '0', border: '2px solid white'}}
+                className="d-block w-100"
+                src={carouselDB}
+                alt="Sixth slide"
+              /></a>
+            </div>
+            <Carousel.Caption>
+              <h5><em>LangPal:</em>&nbsp;&nbsp;&nbsp;Landing Page & Mobile App Development&nbsp;&nbsp;&nbsp;&nbsp;<a rel="noreferrer" target="_blank" href="https://www.linkedin.com/company/langpalapp/posts/?feedView=all"><FontAwesomeIcon icon={faLinkedin} style={{color: "white", height: "21.8px"}}/></a>
+
+              </h5>
+              <p className='pb-4 p'>Camas, Washington</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -271,6 +289,7 @@ export default function Portfolio(props) {
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
           </Carousel.Item>
+
 
         </Carousel>
       </div>
