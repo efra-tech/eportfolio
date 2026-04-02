@@ -10,7 +10,7 @@ export default function Bio(props) {
       <div style={{backgroundColor: 'pink', marginTop: '2.9%', height: '0.1rem', marginLeft: '21.5%', boxShadow: '0px 1px 6px white'}}></div>
       <div style={{backgroundColor: 'lightgray', marginTop: '1%', height: '0.05rem', marginLeft: '10%', boxShadow: '0px 1px 6px lightgray'}}></div>
 
-      <div className='resume-backback p-2' style={{color:'white', marginTop: '-1.5%', height: '87.9%', width: '43%', borderTop: 'none', backgroundColor: '#01211a', marginRight: '19.0%', opacity: '1.5'}}>
+      <div className='resume-backback p-2' style={{color:'white', marginTop: '-1.5%', height: '87.9%', width: '43%', borderTop: 'none', backgroundColor: '#11041e', marginRight: '19.0%', opacity: '1.5'}}>
           {/* <div style={{backgroundColor: 'pink', marginTop: '1%', height: '0.1rem', marginLeft: '', boxShadow: '0px 1px 6px white'}}></div> */}
           {/* <h1 className=' masked-text'><i>Full Stack Developer</i></h1>
           <div style={{backgroundColor: 'lightgray', marginTop: '1%', height: '0.05rem', marginLeft: '10%', boxShadow: '0px 1px 6px lightgray'}}></div>

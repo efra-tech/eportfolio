@@ -9,7 +9,7 @@ html > * {
   width: 80vw;
   /* background-image: url(imgs/blue.jpeg); */
   background-position: bottom;
-  background-color: #011f19;
+  background-color: #0a0213;
   color: #899ab7;
   margin-left: 20%;
 }
@@ -23,7 +23,7 @@ html > * {
   left: 0;
   width: 5%;
   padding: 1.3%;
-  background-color: #01110e;
+  background-color: black;
   font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-size: 3rem;
@@ -32,8 +32,8 @@ html > * {
   letter-spacing: -0.28px;
   border-radius: none;
   text-decoration: none;
-  border-top: 26px solid #010e0c;
-  border-right: 20.72px solid #010e0c;
+  border-top: 26px solid black;
+  border-right: 20.72px solid rgb(7, 7, 7);
 }
 
 .nav-name {
@@ -58,7 +58,7 @@ html > * {
 }
 
 .bio-back, .resume-back, .resume-backback {
-  background-color: #01211a;
+  background-color: rgba(21, 10, 10, 0.883);
   border: 20px solid rgba(0, 0, 0, 0.144);
   width: 80%;
   padding-left: 0;

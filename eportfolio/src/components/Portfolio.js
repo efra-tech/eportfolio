@@ -58,7 +58,7 @@ export default function Portfolio(props) {
               /></a>
             </div>
             <Carousel.Caption>
-              <h5 style={{marginBottom: '0px'}}><em>10XAR:</em>&nbsp;&nbsp;&nbsp;Pioneer Technology</h5>
+              <h5 style={{marginBottom: '0px'}}><em>10XAR:</em>&nbsp;&nbsp;&nbsp; Pioneer Technology - Physical AI Electronics Manufacturing&nbsp;&nbsp;&nbsp;&nbsp;<a rel="noreferrer" target="_blank" href="https://www.linkedin.com/company/ixanahq/"><FontAwesomeIcon icon={faLinkedin} style={{color: "white", height: "21.8px"}}/></a></h5>
               <p className='pb-4 p'>Seattle, Washington</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
