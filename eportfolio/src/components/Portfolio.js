@@ -73,7 +73,7 @@ export default function Portfolio(props) {
               /></a>
             </div>
             <Carousel.Caption>
-              <h5><em>Synaptech @ UW:</em>&nbsp;&nbsp;&nbsp;Global Open-Source Platform&nbsp;&nbsp;&nbsp;
+              <h5><em>Synaptech @ UW:</em>&nbsp;&nbsp;&nbsp;Open-Source Siteware and Machine Learning&nbsp;&nbsp;&nbsp;
                 <a rel="noreferrer" target="_blank" href="https://github.com/synaptech-uw/uwsynaptech-website"><FontAwesomeIcon icon={faGithubSquare} style={{color: "white", height: "21.8px"}}/></a>
               </h5>
               <p className='pb-4 p'>Seattle, Washington</p>
@@ -89,7 +89,7 @@ export default function Portfolio(props) {
               /></a>
             </div>
             <Carousel.Caption>
-              <h5><em>atlas:</em>&nbsp;&nbsp;&nbsp; Landing Page & Early Start-Up&nbsp;&nbsp;&nbsp;<a rel="noreferrer" target="_blank" href="https://www.linkedin.com/company/theatlasapp/posts/?feedView=all"><FontAwesomeIcon icon={faLinkedin} style={{color: "white", height: "21.8px"}}/></a></h5>
+              <h5><em>atlas:</em>&nbsp;&nbsp;&nbsp; Siteware & Early Start-Up&nbsp;&nbsp;&nbsp;<a rel="noreferrer" target="_blank" href="https://www.linkedin.com/company/theatlasapp/posts/?feedView=all"><FontAwesomeIcon icon={faLinkedin} style={{color: "white", height: "21.8px"}}/></a></h5>
               <p className='pb-4 p'>Seattle, Washington</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
@@ -103,7 +103,7 @@ export default function Portfolio(props) {
               /></a>
             </div>
             <Carousel.Caption>
-              <h5><em>YouFeed.IO:</em>&nbsp;&nbsp;&nbsp;Early Stage Mobile App - Custom Design & Development</h5>
+              <h5><em>YouFeed.IO:</em>&nbsp;&nbsp;&nbsp;Early Stage Mobile App - Software Design & Development</h5>
               <p className='pb-4 p'>Austin, Texas</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
@@ -117,7 +117,7 @@ export default function Portfolio(props) {
               /></a>
             </div>
             <Carousel.Caption>
-              <h5><em>LangPal:</em>&nbsp;&nbsp;&nbsp;Landing Page & Mobile App Development&nbsp;&nbsp;&nbsp;&nbsp;<a rel="noreferrer" target="_blank" href="https://www.linkedin.com/company/langpalapp/posts/?feedView=all"><FontAwesomeIcon icon={faLinkedin} style={{color: "white", height: "21.8px"}}/></a>
+              <h5><em>LangPal:</em>&nbsp;&nbsp;&nbsp;Siteware & Mobile App Development&nbsp;&nbsp;&nbsp;&nbsp;<a rel="noreferrer" target="_blank" href="https://www.linkedin.com/company/langpalapp/posts/?feedView=all"><FontAwesomeIcon icon={faLinkedin} style={{color: "white", height: "21.8px"}}/></a>
 
               </h5>
               <p className='pb-4 p'>Camas, Washington</p>
@@ -133,7 +133,7 @@ export default function Portfolio(props) {
               /></a>
             </div>
             <Carousel.Caption>
-              <h5><em>MexiKhana LLC:</em>&nbsp;&nbsp;&nbsp; Landing Page & Graphic Design</h5>
+              <h5><em>MexiKhana LLC:</em>&nbsp;&nbsp;&nbsp; Siteware & Design</h5>
               <p className='pb-4 p'>Portland, Oregon</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
             </Carousel.Caption>
@@ -219,7 +219,7 @@ export default function Portfolio(props) {
             </div>
             <Carousel.Caption>
               <h5>
-                <em>GardenSpace:</em>&nbsp;&nbsp;&nbsp;Open-Source Data and Software Capstone Project&nbsp;&nbsp;&nbsp;
+                <em>GardenSpace:</em>&nbsp;&nbsp;&nbsp;Open-Source Data and Software Capstone Project Website&nbsp;&nbsp;&nbsp;
                 <a rel="noreferrer" target="_blank" href="https://github.com/efra-tech/icapstone"><FontAwesomeIcon icon={faGithubSquare} style={{color: "white", height: "21.8px"}}/></a>
                 </h5>
               <p className='pb-4 p'>Seattle, Washington</p>
@@ -283,7 +283,7 @@ export default function Portfolio(props) {
               /></a>
             </div>
             <Carousel.Caption>
-              <h5><em>Roland York Hair:</em>&nbsp;&nbsp;&nbsp;Landing Page & Gallery Contract&nbsp;&nbsp;&nbsp;
+              <h5><em>Roland York Hair:</em>&nbsp;&nbsp;&nbsp;Landing Page & Gallery Website&nbsp;&nbsp;&nbsp;
               </h5>
               <p className='pb-4 p'>Seattle, Washington</p>
               <p style={{fontSize: '0.3rem'}}> &nbsp;</p>
